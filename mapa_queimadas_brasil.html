@@ -1,0 +1,3474 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8a67b4cb4f7705200e8c3b38e1b58d53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8a67b4cb4f7705200e8c3b38e1b58d53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8a67b4cb4f7705200e8c3b38e1b58d53 = L.map(
+                "map_8a67b4cb4f7705200e8c3b38e1b58d53",
+                {
+                    center: [-14.235, -51.9253],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dcc72781b1b1ef64c639de3df5a91229 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_dcc72781b1b1ef64c639de3df5a91229.addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+            var circle_marker_b5b383a22a15e598676a27b52269d7fa = L.circleMarker(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.973, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_89ef7fa02513d6482a571a96967ed668 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c43e758c06d5cd4c58a97cc95f9a8d46 = $(`<div id="html_c43e758c06d5cd4c58a97cc95f9a8d46" style="width: 100.0%; height: 100.0%;">Estado: Amapá<br>Total Incêndios: 1946</div>`)[0];
+                popup_89ef7fa02513d6482a571a96967ed668.setContent(html_c43e758c06d5cd4c58a97cc95f9a8d46);
+            
+        
+
+        circle_marker_b5b383a22a15e598676a27b52269d7fa.bindPopup(popup_89ef7fa02513d6482a571a96967ed668)
+        ;
+
+        
+    
+    
+            var circle_marker_de707f43913380db929df6f41e0cc83a = L.circleMarker(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.603, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_9aebe7a9be6b6a8b679fcc3fd9581bad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d9398767a2c8117f82fb05923a0d1fb = $(`<div id="html_7d9398767a2c8117f82fb05923a0d1fb" style="width: 100.0%; height: 100.0%;">Estado: Amapá<br>Total Incêndios: 1206</div>`)[0];
+                popup_9aebe7a9be6b6a8b679fcc3fd9581bad.setContent(html_7d9398767a2c8117f82fb05923a0d1fb);
+            
+        
+
+        circle_marker_de707f43913380db929df6f41e0cc83a.bindPopup(popup_9aebe7a9be6b6a8b679fcc3fd9581bad)
+        ;
+
+        
+    
+    
+            var circle_marker_dc449de4750f5662f87a2c095b0d34f8 = L.circleMarker(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6385, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_720ea0604e543f5b2f430a8b3aed4e8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b12231f4808f0dce580d74ef3991d42 = $(`<div id="html_0b12231f4808f0dce580d74ef3991d42" style="width: 100.0%; height: 100.0%;">Estado: Amapá<br>Total Incêndios: 1277</div>`)[0];
+                popup_720ea0604e543f5b2f430a8b3aed4e8c.setContent(html_0b12231f4808f0dce580d74ef3991d42);
+            
+        
+
+        circle_marker_dc449de4750f5662f87a2c095b0d34f8.bindPopup(popup_720ea0604e543f5b2f430a8b3aed4e8c)
+        ;
+
+        
+    
+    
+            var circle_marker_243643cf4b2fb458c32d4afcde49c032 = L.circleMarker(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.375, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e87f42253eece1fbb66aeef90b8c014d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1233529856c3374931c6ba2f14a4c670 = $(`<div id="html_1233529856c3374931c6ba2f14a4c670" style="width: 100.0%; height: 100.0%;">Estado: Amapá<br>Total Incêndios: 750</div>`)[0];
+                popup_e87f42253eece1fbb66aeef90b8c014d.setContent(html_1233529856c3374931c6ba2f14a4c670);
+            
+        
+
+        circle_marker_243643cf4b2fb458c32d4afcde49c032.bindPopup(popup_e87f42253eece1fbb66aeef90b8c014d)
+        ;
+
+        
+    
+    
+            var circle_marker_7b9e691f44e26fc5444ba9ce2b91511b = L.circleMarker(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.338, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bdf3cb1422ac27991ff62c1635a6cdec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c99f46cb0e7bb73aaa687bdd895536cf = $(`<div id="html_c99f46cb0e7bb73aaa687bdd895536cf" style="width: 100.0%; height: 100.0%;">Estado: Amapá<br>Total Incêndios: 676</div>`)[0];
+                popup_bdf3cb1422ac27991ff62c1635a6cdec.setContent(html_c99f46cb0e7bb73aaa687bdd895536cf);
+            
+        
+
+        circle_marker_7b9e691f44e26fc5444ba9ce2b91511b.bindPopup(popup_bdf3cb1422ac27991ff62c1635a6cdec)
+        ;
+
+        
+    
+    
+            var circle_marker_2cb7ef92dace9a409c1ec69f0d54a2a0 = L.circleMarker(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.176, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1e8ed1e87f0d23635ffa8539f70e1556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1af211b217c8b7010e829ddd0d9a93e7 = $(`<div id="html_1af211b217c8b7010e829ddd0d9a93e7" style="width: 100.0%; height: 100.0%;">Estado: Amapá<br>Total Incêndios: 352</div>`)[0];
+                popup_1e8ed1e87f0d23635ffa8539f70e1556.setContent(html_1af211b217c8b7010e829ddd0d9a93e7);
+            
+        
+
+        circle_marker_2cb7ef92dace9a409c1ec69f0d54a2a0.bindPopup(popup_1e8ed1e87f0d23635ffa8539f70e1556)
+        ;
+
+        
+    
+    
+            var circle_marker_3ea08dbf18d57981fe8ce5c6063437a3 = L.circleMarker(
+                [-27.33, -49.44],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0025, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_43a8849d982bec2376b186e8bfb9fe33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41c24dc30766bbdd2c6a0c3550bbf912 = $(`<div id="html_41c24dc30766bbdd2c6a0c3550bbf912" style="width: 100.0%; height: 100.0%;">Estado: Santa Catarina<br>Total Incêndios: 2005</div>`)[0];
+                popup_43a8849d982bec2376b186e8bfb9fe33.setContent(html_41c24dc30766bbdd2c6a0c3550bbf912);
+            
+        
+
+        circle_marker_3ea08dbf18d57981fe8ce5c6063437a3.bindPopup(popup_43a8849d982bec2376b186e8bfb9fe33)
+        ;
+
+        
+    
+    
+            var circle_marker_74adb1b34a7eb66ef694bbb0cf5221ec = L.circleMarker(
+                [-27.33, -49.44],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7085, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_aab55cc6d9c9aa752356fc2d5bb1c7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e91d6d7630a73b9546f4c643ccb51f7a = $(`<div id="html_e91d6d7630a73b9546f4c643ccb51f7a" style="width: 100.0%; height: 100.0%;">Estado: Santa Catarina<br>Total Incêndios: 1417</div>`)[0];
+                popup_aab55cc6d9c9aa752356fc2d5bb1c7d8.setContent(html_e91d6d7630a73b9546f4c643ccb51f7a);
+            
+        
+
+        circle_marker_74adb1b34a7eb66ef694bbb0cf5221ec.bindPopup(popup_aab55cc6d9c9aa752356fc2d5bb1c7d8)
+        ;
+
+        
+    
+    
+            var circle_marker_2251cba852e90658c8e2a22ff66f0594 = L.circleMarker(
+                [-27.33, -49.44],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.902, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a097d762d17bc0e7c3001c4e36dd8ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d62bd85639da71c5e599b9fbf11dd0a = $(`<div id="html_0d62bd85639da71c5e599b9fbf11dd0a" style="width: 100.0%; height: 100.0%;">Estado: Santa Catarina<br>Total Incêndios: 1804</div>`)[0];
+                popup_a097d762d17bc0e7c3001c4e36dd8ead.setContent(html_0d62bd85639da71c5e599b9fbf11dd0a);
+            
+        
+
+        circle_marker_2251cba852e90658c8e2a22ff66f0594.bindPopup(popup_a097d762d17bc0e7c3001c4e36dd8ead)
+        ;
+
+        
+    
+    
+            var circle_marker_88c89c96e61cbec74cdbec8014e96db0 = L.circleMarker(
+                [-27.33, -49.44],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2125, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_ad519f04317f47872ffff0742c357e8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd12f91074002c5db2ec0b5f5b1af5bc = $(`<div id="html_fd12f91074002c5db2ec0b5f5b1af5bc" style="width: 100.0%; height: 100.0%;">Estado: Santa Catarina<br>Total Incêndios: 2425</div>`)[0];
+                popup_ad519f04317f47872ffff0742c357e8c.setContent(html_fd12f91074002c5db2ec0b5f5b1af5bc);
+            
+        
+
+        circle_marker_88c89c96e61cbec74cdbec8014e96db0.bindPopup(popup_ad519f04317f47872ffff0742c357e8c)
+        ;
+
+        
+    
+    
+            var circle_marker_0c46618623c46841699d81c8e4afcd17 = L.circleMarker(
+                [-27.33, -49.44],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1755, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_acf50415806dae2e20ee36db1f14e535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0db91e3ea275346c683782ffe743c46 = $(`<div id="html_e0db91e3ea275346c683782ffe743c46" style="width: 100.0%; height: 100.0%;">Estado: Santa Catarina<br>Total Incêndios: 2351</div>`)[0];
+                popup_acf50415806dae2e20ee36db1f14e535.setContent(html_e0db91e3ea275346c683782ffe743c46);
+            
+        
+
+        circle_marker_0c46618623c46841699d81c8e4afcd17.bindPopup(popup_acf50415806dae2e20ee36db1f14e535)
+        ;
+
+        
+    
+    
+            var circle_marker_4d0a068856abf766a8acfd86e0e0464a = L.circleMarker(
+                [-27.33, -49.44],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.555, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a632f8f1b944ce8ade05b4911c1f5cc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ae6925ac86ec1df79bddde70706aa9c = $(`<div id="html_1ae6925ac86ec1df79bddde70706aa9c" style="width: 100.0%; height: 100.0%;">Estado: Santa Catarina<br>Total Incêndios: 1110</div>`)[0];
+                popup_a632f8f1b944ce8ade05b4911c1f5cc8.setContent(html_1ae6925ac86ec1df79bddde70706aa9c);
+            
+        
+
+        circle_marker_4d0a068856abf766a8acfd86e0e0464a.bindPopup(popup_a632f8f1b944ce8ade05b4911c1f5cc8)
+        ;
+
+        
+    
+    
+            var circle_marker_c3a589ff2a347731f18340c67202710e = L.circleMarker(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0935, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_49697661b3b2b923359b1eb3dd910bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a865d13a559f4e9a71c3f1ea5d23596b = $(`<div id="html_a865d13a559f4e9a71c3f1ea5d23596b" style="width: 100.0%; height: 100.0%;">Estado: Espírito Santo<br>Total Incêndios: 187</div>`)[0];
+                popup_49697661b3b2b923359b1eb3dd910bcf.setContent(html_a865d13a559f4e9a71c3f1ea5d23596b);
+            
+        
+
+        circle_marker_c3a589ff2a347731f18340c67202710e.bindPopup(popup_49697661b3b2b923359b1eb3dd910bcf)
+        ;
+
+        
+    
+    
+            var circle_marker_c925c4517f7702a2496fbac8e2b99995 = L.circleMarker(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1025, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_81e5b8e2e14405eb675bc4d24ca6dcc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dbb82380d7a407ba6b23ea8da974ed2 = $(`<div id="html_1dbb82380d7a407ba6b23ea8da974ed2" style="width: 100.0%; height: 100.0%;">Estado: Espírito Santo<br>Total Incêndios: 205</div>`)[0];
+                popup_81e5b8e2e14405eb675bc4d24ca6dcc0.setContent(html_1dbb82380d7a407ba6b23ea8da974ed2);
+            
+        
+
+        circle_marker_c925c4517f7702a2496fbac8e2b99995.bindPopup(popup_81e5b8e2e14405eb675bc4d24ca6dcc0)
+        ;
+
+        
+    
+    
+            var circle_marker_16522f325219bbbbd4bb4d25dc770444 = L.circleMarker(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.311, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bbb155708e3e067e7e6a5b94cd4d9696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e4afac44f56a3781af51200aabb5953 = $(`<div id="html_0e4afac44f56a3781af51200aabb5953" style="width: 100.0%; height: 100.0%;">Estado: Espírito Santo<br>Total Incêndios: 622</div>`)[0];
+                popup_bbb155708e3e067e7e6a5b94cd4d9696.setContent(html_0e4afac44f56a3781af51200aabb5953);
+            
+        
+
+        circle_marker_16522f325219bbbbd4bb4d25dc770444.bindPopup(popup_bbb155708e3e067e7e6a5b94cd4d9696)
+        ;
+
+        
+    
+    
+            var circle_marker_d46ab0d332ccda8a46ae71adf63653d4 = L.circleMarker(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2005, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_8f8bfe343733e0272b6eb084596d75c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b834fdfd0b99c92c3cb3e50ccfcc8c1 = $(`<div id="html_2b834fdfd0b99c92c3cb3e50ccfcc8c1" style="width: 100.0%; height: 100.0%;">Estado: Espírito Santo<br>Total Incêndios: 401</div>`)[0];
+                popup_8f8bfe343733e0272b6eb084596d75c7.setContent(html_2b834fdfd0b99c92c3cb3e50ccfcc8c1);
+            
+        
+
+        circle_marker_d46ab0d332ccda8a46ae71adf63653d4.bindPopup(popup_8f8bfe343733e0272b6eb084596d75c7)
+        ;
+
+        
+    
+    
+            var circle_marker_e18c3361df099186e248ea3d48ba1531 = L.circleMarker(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2745, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e2113efacd9b187bb2f64217e176b5a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_141e3495b9af47e39552fd05f0c10040 = $(`<div id="html_141e3495b9af47e39552fd05f0c10040" style="width: 100.0%; height: 100.0%;">Estado: Espírito Santo<br>Total Incêndios: 549</div>`)[0];
+                popup_e2113efacd9b187bb2f64217e176b5a2.setContent(html_141e3495b9af47e39552fd05f0c10040);
+            
+        
+
+        circle_marker_e18c3361df099186e248ea3d48ba1531.bindPopup(popup_e2113efacd9b187bb2f64217e176b5a2)
+        ;
+
+        
+    
+    
+            var circle_marker_23e2775a0fa63161fa82c170c16c52ff = L.circleMarker(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.186, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e96222b291c260b56c1a0ea4673490da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631bf191af607f5b91bf01141834ffe9 = $(`<div id="html_631bf191af607f5b91bf01141834ffe9" style="width: 100.0%; height: 100.0%;">Estado: Espírito Santo<br>Total Incêndios: 372</div>`)[0];
+                popup_e96222b291c260b56c1a0ea4673490da.setContent(html_631bf191af607f5b91bf01141834ffe9);
+            
+        
+
+        circle_marker_23e2775a0fa63161fa82c170c16c52ff.bindPopup(popup_e96222b291c260b56c1a0ea4673490da)
+        ;
+
+        
+    
+    
+            var circle_marker_c0fbdb028a252e28ef96b3d96ea59b5e = L.circleMarker(
+                [-5.53, -52.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.885, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e08280a5e4f8b3941136c0c4ba69dee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fde7995af5136e7fdfa7fca4e1d245f = $(`<div id="html_5fde7995af5136e7fdfa7fca4e1d245f" style="width: 100.0%; height: 100.0%;">Estado: Pará<br>Total Incêndios: 49770</div>`)[0];
+                popup_e08280a5e4f8b3941136c0c4ba69dee5.setContent(html_5fde7995af5136e7fdfa7fca4e1d245f);
+            
+        
+
+        circle_marker_c0fbdb028a252e28ef96b3d96ea59b5e.bindPopup(popup_e08280a5e4f8b3941136c0c4ba69dee5)
+        ;
+
+        
+    
+    
+            var circle_marker_20f5c744c7924e7ec4c94c4f69e2184e = L.circleMarker(
+                [-5.53, -52.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.04, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_4904216644eaf94a781b85f58b9c6143 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_137069f1f59f9885d24aaf07eac87d39 = $(`<div id="html_137069f1f59f9885d24aaf07eac87d39" style="width: 100.0%; height: 100.0%;">Estado: Pará<br>Total Incêndios: 22080</div>`)[0];
+                popup_4904216644eaf94a781b85f58b9c6143.setContent(html_137069f1f59f9885d24aaf07eac87d39);
+            
+        
+
+        circle_marker_20f5c744c7924e7ec4c94c4f69e2184e.bindPopup(popup_4904216644eaf94a781b85f58b9c6143)
+        ;
+
+        
+    
+    
+            var circle_marker_33cadd33d349843509575c92808f70f7 = L.circleMarker(
+                [-5.53, -52.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0825, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_f1730ab53943d5453ea9cf43fc40dd2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3fd721d768ca6c1c92678286870851a = $(`<div id="html_a3fd721d768ca6c1c92678286870851a" style="width: 100.0%; height: 100.0%;">Estado: Pará<br>Total Incêndios: 30165</div>`)[0];
+                popup_f1730ab53943d5453ea9cf43fc40dd2a.setContent(html_a3fd721d768ca6c1c92678286870851a);
+            
+        
+
+        circle_marker_33cadd33d349843509575c92808f70f7.bindPopup(popup_f1730ab53943d5453ea9cf43fc40dd2a)
+        ;
+
+        
+    
+    
+            var circle_marker_e8f939a04b34cb4b115f2af2cf069bb3 = L.circleMarker(
+                [-5.53, -52.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.3015, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_21fc5cf1a24a911fa059c48acf46f9f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e89f7bb453bbf4258b2c1dc7e1b9ba1c = $(`<div id="html_e89f7bb453bbf4258b2c1dc7e1b9ba1c" style="width: 100.0%; height: 100.0%;">Estado: Pará<br>Total Incêndios: 38603</div>`)[0];
+                popup_21fc5cf1a24a911fa059c48acf46f9f0.setContent(html_e89f7bb453bbf4258b2c1dc7e1b9ba1c);
+            
+        
+
+        circle_marker_e8f939a04b34cb4b115f2af2cf069bb3.bindPopup(popup_21fc5cf1a24a911fa059c48acf46f9f0)
+        ;
+
+        
+    
+    
+            var circle_marker_4ac73a93cdf0813bff4a39ee728beb64 = L.circleMarker(
+                [-5.53, -52.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.438, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_f1611f457e0de9b3b264eec8f890a493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d9a80357a18f9e1b49048c98d0943f1 = $(`<div id="html_1d9a80357a18f9e1b49048c98d0943f1" style="width: 100.0%; height: 100.0%;">Estado: Pará<br>Total Incêndios: 22876</div>`)[0];
+                popup_f1611f457e0de9b3b264eec8f890a493.setContent(html_1d9a80357a18f9e1b49048c98d0943f1);
+            
+        
+
+        circle_marker_4ac73a93cdf0813bff4a39ee728beb64.bindPopup(popup_f1611f457e0de9b3b264eec8f890a493)
+        ;
+
+        
+    
+    
+            var circle_marker_68bc91e6f4719a12c6746150df9d6590 = L.circleMarker(
+                [-5.53, -52.29],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.81, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e1c0ae655f92f194f327913a6fe2ca04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce499e2ad90edfeed8cdccc3270264e0 = $(`<div id="html_ce499e2ad90edfeed8cdccc3270264e0" style="width: 100.0%; height: 100.0%;">Estado: Pará<br>Total Incêndios: 29620</div>`)[0];
+                popup_e1c0ae655f92f194f327913a6fe2ca04.setContent(html_ce499e2ad90edfeed8cdccc3270264e0);
+            
+        
+
+        circle_marker_68bc91e6f4719a12c6746150df9d6590.bindPopup(popup_e1c0ae655f92f194f327913a6fe2ca04)
+        ;
+
+        
+    
+    
+            var circle_marker_c61467adafa4f66792ee309a716fe388 = L.circleMarker(
+                [-8.28, -43.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8285, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_fee9ed33f1efd401acf222798defdeca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad934744b21a698099b2b1e73a1c2cd7 = $(`<div id="html_ad934744b21a698099b2b1e73a1c2cd7" style="width: 100.0%; height: 100.0%;">Estado: Piauí<br>Total Incêndios: 7657</div>`)[0];
+                popup_fee9ed33f1efd401acf222798defdeca.setContent(html_ad934744b21a698099b2b1e73a1c2cd7);
+            
+        
+
+        circle_marker_c61467adafa4f66792ee309a716fe388.bindPopup(popup_fee9ed33f1efd401acf222798defdeca)
+        ;
+
+        
+    
+    
+            var circle_marker_25a4f43ac97beddc33e3b908e7c7404d = L.circleMarker(
+                [-8.28, -43.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.7155, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bace8d1e53665af8971a4a809c20bf94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f24eb790662a5cb44f8a4fbc422fda9e = $(`<div id="html_f24eb790662a5cb44f8a4fbc422fda9e" style="width: 100.0%; height: 100.0%;">Estado: Piauí<br>Total Incêndios: 9431</div>`)[0];
+                popup_bace8d1e53665af8971a4a809c20bf94.setContent(html_f24eb790662a5cb44f8a4fbc422fda9e);
+            
+        
+
+        circle_marker_25a4f43ac97beddc33e3b908e7c7404d.bindPopup(popup_bace8d1e53665af8971a4a809c20bf94)
+        ;
+
+        
+    
+    
+            var circle_marker_ff6fd999305832465f36f02667ee04f8 = L.circleMarker(
+                [-8.28, -43.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.447, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e328787594f920f9e4606df33f76ee6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd20e1801667dd69f3be5a7fed9dd8db = $(`<div id="html_fd20e1801667dd69f3be5a7fed9dd8db" style="width: 100.0%; height: 100.0%;">Estado: Piauí<br>Total Incêndios: 10894</div>`)[0];
+                popup_e328787594f920f9e4606df33f76ee6a.setContent(html_fd20e1801667dd69f3be5a7fed9dd8db);
+            
+        
+
+        circle_marker_ff6fd999305832465f36f02667ee04f8.bindPopup(popup_e328787594f920f9e4606df33f76ee6a)
+        ;
+
+        
+    
+    
+            var circle_marker_17931f3b6b35869a6db95fa698075b6e = L.circleMarker(
+                [-8.28, -43.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6585, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_b5613368af09ba0290ce3e9e7b637466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87e2fdbf0fbd630279b2490f55ac3de3 = $(`<div id="html_87e2fdbf0fbd630279b2490f55ac3de3" style="width: 100.0%; height: 100.0%;">Estado: Piauí<br>Total Incêndios: 9317</div>`)[0];
+                popup_b5613368af09ba0290ce3e9e7b637466.setContent(html_87e2fdbf0fbd630279b2490f55ac3de3);
+            
+        
+
+        circle_marker_17931f3b6b35869a6db95fa698075b6e.bindPopup(popup_b5613368af09ba0290ce3e9e7b637466)
+        ;
+
+        
+    
+    
+            var circle_marker_a236ab8fcb585abce50209e9897704a5 = L.circleMarker(
+                [-8.28, -43.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3725, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_5e958c1649c991bb1ee553e3b5b719ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0e30d608d4eb4772aa6cc3eaa96f6b3 = $(`<div id="html_a0e30d608d4eb4772aa6cc3eaa96f6b3" style="width: 100.0%; height: 100.0%;">Estado: Piauí<br>Total Incêndios: 12745</div>`)[0];
+                popup_5e958c1649c991bb1ee553e3b5b719ec.setContent(html_a0e30d608d4eb4772aa6cc3eaa96f6b3);
+            
+        
+
+        circle_marker_a236ab8fcb585abce50209e9897704a5.bindPopup(popup_5e958c1649c991bb1ee553e3b5b719ec)
+        ;
+
+        
+    
+    
+            var circle_marker_a3d6443f1a4327865f447155dcb7c07b = L.circleMarker(
+                [-8.28, -43.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.61, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bf44e0fc123398da55ef693921b62e85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74930371f3cf8c5a3a65b00f099e7036 = $(`<div id="html_74930371f3cf8c5a3a65b00f099e7036" style="width: 100.0%; height: 100.0%;">Estado: Piauí<br>Total Incêndios: 7220</div>`)[0];
+                popup_bf44e0fc123398da55ef693921b62e85.setContent(html_74930371f3cf8c5a3a65b00f099e7036);
+            
+        
+
+        circle_marker_a3d6443f1a4327865f447155dcb7c07b.bindPopup(popup_bf44e0fc123398da55ef693921b62e85)
+        ;
+
+        
+    
+    
+            var circle_marker_263f800d1c3a78c52df0a05aa9763258 = L.circleMarker(
+                [-12.96, -38.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.225, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_df126ab0b9205373c8734360f6d62b40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4935fe46b560f0e3869774cc156b8c15 = $(`<div id="html_4935fe46b560f0e3869774cc156b8c15" style="width: 100.0%; height: 100.0%;">Estado: Bahia<br>Total Incêndios: 6450</div>`)[0];
+                popup_df126ab0b9205373c8734360f6d62b40.setContent(html_4935fe46b560f0e3869774cc156b8c15);
+            
+        
+
+        circle_marker_263f800d1c3a78c52df0a05aa9763258.bindPopup(popup_df126ab0b9205373c8734360f6d62b40)
+        ;
+
+        
+    
+    
+            var circle_marker_d36c0117fb39d8a6bc502492bade258f = L.circleMarker(
+                [-12.96, -38.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.478, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_dbfae19af593394e57cb863a0e70703a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09a5cf8c3cb55b9514c72c92dff3e55b = $(`<div id="html_09a5cf8c3cb55b9514c72c92dff3e55b" style="width: 100.0%; height: 100.0%;">Estado: Bahia<br>Total Incêndios: 4956</div>`)[0];
+                popup_dbfae19af593394e57cb863a0e70703a.setContent(html_09a5cf8c3cb55b9514c72c92dff3e55b);
+            
+        
+
+        circle_marker_d36c0117fb39d8a6bc502492bade258f.bindPopup(popup_dbfae19af593394e57cb863a0e70703a)
+        ;
+
+        
+    
+    
+            var circle_marker_06f6d6cebcfe4ef1795fb4d3a4486773 = L.circleMarker(
+                [-12.96, -38.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6855, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_024b2ef922f6f98759566a0a527638c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1a260d65bbdb9e3980b10c92a58a90e = $(`<div id="html_c1a260d65bbdb9e3980b10c92a58a90e" style="width: 100.0%; height: 100.0%;">Estado: Bahia<br>Total Incêndios: 7371</div>`)[0];
+                popup_024b2ef922f6f98759566a0a527638c4.setContent(html_c1a260d65bbdb9e3980b10c92a58a90e);
+            
+        
+
+        circle_marker_06f6d6cebcfe4ef1795fb4d3a4486773.bindPopup(popup_024b2ef922f6f98759566a0a527638c4)
+        ;
+
+        
+    
+    
+            var circle_marker_0fc69b37410faa255788bfbd11a8d9cb = L.circleMarker(
+                [-12.96, -38.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.956, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_53c1773659a9d1b8af7badb3dca2c697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0020ef0de7a9e942120b99140689083 = $(`<div id="html_e0020ef0de7a9e942120b99140689083" style="width: 100.0%; height: 100.0%;">Estado: Bahia<br>Total Incêndios: 7912</div>`)[0];
+                popup_53c1773659a9d1b8af7badb3dca2c697.setContent(html_e0020ef0de7a9e942120b99140689083);
+            
+        
+
+        circle_marker_0fc69b37410faa255788bfbd11a8d9cb.bindPopup(popup_53c1773659a9d1b8af7badb3dca2c697)
+        ;
+
+        
+    
+    
+            var circle_marker_e514f7dcd9e6821ce4eb0662c5c5516e = L.circleMarker(
+                [-12.96, -38.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.1795, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_6bdea9c2974659923f5149dead9fc22b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b03cdf0425d2651f67d154996003f7a3 = $(`<div id="html_b03cdf0425d2651f67d154996003f7a3" style="width: 100.0%; height: 100.0%;">Estado: Bahia<br>Total Incêndios: 14359</div>`)[0];
+                popup_6bdea9c2974659923f5149dead9fc22b.setContent(html_b03cdf0425d2651f67d154996003f7a3);
+            
+        
+
+        circle_marker_e514f7dcd9e6821ce4eb0662c5c5516e.bindPopup(popup_6bdea9c2974659923f5149dead9fc22b)
+        ;
+
+        
+    
+    
+            var circle_marker_6f7d3308cc3e8292413358da07f1579e = L.circleMarker(
+                [-12.96, -38.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6785, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_cddf303d1422d43d4c9d78a732f23e91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc5b823e68923038c2b24caf080b42bd = $(`<div id="html_bc5b823e68923038c2b24caf080b42bd" style="width: 100.0%; height: 100.0%;">Estado: Bahia<br>Total Incêndios: 7357</div>`)[0];
+                popup_cddf303d1422d43d4c9d78a732f23e91.setContent(html_bc5b823e68923038c2b24caf080b42bd);
+            
+        
+
+        circle_marker_6f7d3308cc3e8292413358da07f1579e.bindPopup(popup_cddf303d1422d43d4c9d78a732f23e91)
+        ;
+
+        
+    
+    
+            var circle_marker_76b85a2e9f63690b7a2a6eec60a410fd = L.circleMarker(
+                [-9.71, -35.73],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0645, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a70c462a12667cd7432f6f0782ebd168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9c7d21bb9228ebf7952b71c310a1731 = $(`<div id="html_c9c7d21bb9228ebf7952b71c310a1731" style="width: 100.0%; height: 100.0%;">Estado: Alagoas<br>Total Incêndios: 129</div>`)[0];
+                popup_a70c462a12667cd7432f6f0782ebd168.setContent(html_c9c7d21bb9228ebf7952b71c310a1731);
+            
+        
+
+        circle_marker_76b85a2e9f63690b7a2a6eec60a410fd.bindPopup(popup_a70c462a12667cd7432f6f0782ebd168)
+        ;
+
+        
+    
+    
+            var circle_marker_bb4c3f44e42d0d4bf7e9cd8aee5023cb = L.circleMarker(
+                [-9.71, -35.73],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1005, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_70dcef221ec580f51f159febebcf9ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbca7f6f7163256f48d4978605d1e657 = $(`<div id="html_fbca7f6f7163256f48d4978605d1e657" style="width: 100.0%; height: 100.0%;">Estado: Alagoas<br>Total Incêndios: 201</div>`)[0];
+                popup_70dcef221ec580f51f159febebcf9ba8.setContent(html_fbca7f6f7163256f48d4978605d1e657);
+            
+        
+
+        circle_marker_bb4c3f44e42d0d4bf7e9cd8aee5023cb.bindPopup(popup_70dcef221ec580f51f159febebcf9ba8)
+        ;
+
+        
+    
+    
+            var circle_marker_4f638474040a2aa858a590e35894c9a2 = L.circleMarker(
+                [-9.71, -35.73],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.116, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_b0ea893909f9b2c30e30556d75c5608d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07d7ce77adda34fa48472d3fa60b6c10 = $(`<div id="html_07d7ce77adda34fa48472d3fa60b6c10" style="width: 100.0%; height: 100.0%;">Estado: Alagoas<br>Total Incêndios: 232</div>`)[0];
+                popup_b0ea893909f9b2c30e30556d75c5608d.setContent(html_07d7ce77adda34fa48472d3fa60b6c10);
+            
+        
+
+        circle_marker_4f638474040a2aa858a590e35894c9a2.bindPopup(popup_b0ea893909f9b2c30e30556d75c5608d)
+        ;
+
+        
+    
+    
+            var circle_marker_05c270267f8662bb5c332713dd245d5b = L.circleMarker(
+                [-9.71, -35.73],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0795, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_ed9673949ca1e98c0dcfe5585e254a7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_800c5ba482ac3ae37ef79fc1dafd019c = $(`<div id="html_800c5ba482ac3ae37ef79fc1dafd019c" style="width: 100.0%; height: 100.0%;">Estado: Alagoas<br>Total Incêndios: 159</div>`)[0];
+                popup_ed9673949ca1e98c0dcfe5585e254a7e.setContent(html_800c5ba482ac3ae37ef79fc1dafd019c);
+            
+        
+
+        circle_marker_05c270267f8662bb5c332713dd245d5b.bindPopup(popup_ed9673949ca1e98c0dcfe5585e254a7e)
+        ;
+
+        
+    
+    
+            var circle_marker_2b9fbe9110f672ee1ec64f40c69b7d78 = L.circleMarker(
+                [-9.71, -35.73],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0865, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_646529a571a2e0ce765198e4468090b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_074eb4806b0a423a1240b835a1d49669 = $(`<div id="html_074eb4806b0a423a1240b835a1d49669" style="width: 100.0%; height: 100.0%;">Estado: Alagoas<br>Total Incêndios: 173</div>`)[0];
+                popup_646529a571a2e0ce765198e4468090b1.setContent(html_074eb4806b0a423a1240b835a1d49669);
+            
+        
+
+        circle_marker_2b9fbe9110f672ee1ec64f40c69b7d78.bindPopup(popup_646529a571a2e0ce765198e4468090b1)
+        ;
+
+        
+    
+    
+            var circle_marker_a2936d66b81ba4c4cb11a0e6a4d8134a = L.circleMarker(
+                [-9.71, -35.73],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.046, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_469bf3bc38aa374dfb1fc60a9033389e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0bedc6bda2b9f70ac7e02cf5f02fbb9 = $(`<div id="html_b0bedc6bda2b9f70ac7e02cf5f02fbb9" style="width: 100.0%; height: 100.0%;">Estado: Alagoas<br>Total Incêndios: 92</div>`)[0];
+                popup_469bf3bc38aa374dfb1fc60a9033389e.setContent(html_b0bedc6bda2b9f70ac7e02cf5f02fbb9);
+            
+        
+
+        circle_marker_a2936d66b81ba4c4cb11a0e6a4d8134a.bindPopup(popup_469bf3bc38aa374dfb1fc60a9033389e)
+        ;
+
+        
+    
+    
+            var circle_marker_eda1b941bfa24ca8a478bde70d0f3dbb = L.circleMarker(
+                [-8.28, -35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2815, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_742237e4524be7b4e20525546437818c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_737816f8c2088ac8723ba8f5dc6521ab = $(`<div id="html_737816f8c2088ac8723ba8f5dc6521ab" style="width: 100.0%; height: 100.0%;">Estado: Pernambuco<br>Total Incêndios: 563</div>`)[0];
+                popup_742237e4524be7b4e20525546437818c.setContent(html_737816f8c2088ac8723ba8f5dc6521ab);
+            
+        
+
+        circle_marker_eda1b941bfa24ca8a478bde70d0f3dbb.bindPopup(popup_742237e4524be7b4e20525546437818c)
+        ;
+
+        
+    
+    
+            var circle_marker_c87266185cdcc4cca346b50862a7afc0 = L.circleMarker(
+                [-8.28, -35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.361, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1d24b82c49571de777401ff048639f61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd9685070aa5a75f5dc8383fedb0e0e4 = $(`<div id="html_cd9685070aa5a75f5dc8383fedb0e0e4" style="width: 100.0%; height: 100.0%;">Estado: Pernambuco<br>Total Incêndios: 722</div>`)[0];
+                popup_1d24b82c49571de777401ff048639f61.setContent(html_cd9685070aa5a75f5dc8383fedb0e0e4);
+            
+        
+
+        circle_marker_c87266185cdcc4cca346b50862a7afc0.bindPopup(popup_1d24b82c49571de777401ff048639f61)
+        ;
+
+        
+    
+    
+            var circle_marker_26c07ff3304a0d157a0ba895804280b6 = L.circleMarker(
+                [-8.28, -35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.42, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bb86f2883b77df72277506f2ba4443c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e424ed012ac8649d72b608799e65a09 = $(`<div id="html_1e424ed012ac8649d72b608799e65a09" style="width: 100.0%; height: 100.0%;">Estado: Pernambuco<br>Total Incêndios: 840</div>`)[0];
+                popup_bb86f2883b77df72277506f2ba4443c6.setContent(html_1e424ed012ac8649d72b608799e65a09);
+            
+        
+
+        circle_marker_26c07ff3304a0d157a0ba895804280b6.bindPopup(popup_bb86f2883b77df72277506f2ba4443c6)
+        ;
+
+        
+    
+    
+            var circle_marker_b7bdc0fe7238f766b9f2732e74b6efdd = L.circleMarker(
+                [-8.28, -35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5085, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_5ae03b7f8b824f353ae99266edb892dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7bc5fef175c2123460a9b80ded172df = $(`<div id="html_a7bc5fef175c2123460a9b80ded172df" style="width: 100.0%; height: 100.0%;">Estado: Pernambuco<br>Total Incêndios: 1017</div>`)[0];
+                popup_5ae03b7f8b824f353ae99266edb892dc.setContent(html_a7bc5fef175c2123460a9b80ded172df);
+            
+        
+
+        circle_marker_b7bdc0fe7238f766b9f2732e74b6efdd.bindPopup(popup_5ae03b7f8b824f353ae99266edb892dc)
+        ;
+
+        
+    
+    
+            var circle_marker_20b0dd49450fad25927e72b914efa4b4 = L.circleMarker(
+                [-8.28, -35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.596, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_106d2ab26334c541d6c1773369597ffa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51fe3da0e21cee397a09cee1e26a6543 = $(`<div id="html_51fe3da0e21cee397a09cee1e26a6543" style="width: 100.0%; height: 100.0%;">Estado: Pernambuco<br>Total Incêndios: 1192</div>`)[0];
+                popup_106d2ab26334c541d6c1773369597ffa.setContent(html_51fe3da0e21cee397a09cee1e26a6543);
+            
+        
+
+        circle_marker_20b0dd49450fad25927e72b914efa4b4.bindPopup(popup_106d2ab26334c541d6c1773369597ffa)
+        ;
+
+        
+    
+    
+            var circle_marker_d555144994a6dedecaef4ed97fd43b3a = L.circleMarker(
+                [-8.28, -35.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2075, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_2a9bbbe6fdf5f027779bbccf759e2177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13eab9468961139fb55d814f5d0a2c1a = $(`<div id="html_13eab9468961139fb55d814f5d0a2c1a" style="width: 100.0%; height: 100.0%;">Estado: Pernambuco<br>Total Incêndios: 415</div>`)[0];
+                popup_2a9bbbe6fdf5f027779bbccf759e2177.setContent(html_13eab9468961139fb55d814f5d0a2c1a);
+            
+        
+
+        circle_marker_d555144994a6dedecaef4ed97fd43b3a.bindPopup(popup_2a9bbbe6fdf5f027779bbccf759e2177)
+        ;
+
+        
+    
+    
+            var circle_marker_8fd8f06098b2a604020253ac11c4a0a3 = L.circleMarker(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8685, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_2ec5093bf6c9af321feac5ec3d95e4e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18cd3e89af28e35609ad5527da8699dc = $(`<div id="html_18cd3e89af28e35609ad5527da8699dc" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso do Sul<br>Total Incêndios: 5737</div>`)[0];
+                popup_2ec5093bf6c9af321feac5ec3d95e4e5.setContent(html_18cd3e89af28e35609ad5527da8699dc);
+            
+        
+
+        circle_marker_8fd8f06098b2a604020253ac11c4a0a3.bindPopup(popup_2ec5093bf6c9af321feac5ec3d95e4e5)
+        ;
+
+        
+    
+    
+            var circle_marker_c0adabe884f9e1ec3e45526f8049b323 = L.circleMarker(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.19, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_47c4fd41e5525bcfb28f40afbfa75359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82d3f5108d2dc9df13a3bc6d7ce536ed = $(`<div id="html_82d3f5108d2dc9df13a3bc6d7ce536ed" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso do Sul<br>Total Incêndios: 2380</div>`)[0];
+                popup_47c4fd41e5525bcfb28f40afbfa75359.setContent(html_82d3f5108d2dc9df13a3bc6d7ce536ed);
+            
+        
+
+        circle_marker_c0adabe884f9e1ec3e45526f8049b323.bindPopup(popup_47c4fd41e5525bcfb28f40afbfa75359)
+        ;
+
+        
+    
+    
+            var circle_marker_974008eac4ba483a5b9873a9dddc7aed = L.circleMarker(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.8265, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_5adc3788732dc6a5d1c1acf7a6142972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36ec019d4bf076514faead010e02e89a = $(`<div id="html_36ec019d4bf076514faead010e02e89a" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso do Sul<br>Total Incêndios: 11653</div>`)[0];
+                popup_5adc3788732dc6a5d1c1acf7a6142972.setContent(html_36ec019d4bf076514faead010e02e89a);
+            
+        
+
+        circle_marker_974008eac4ba483a5b9873a9dddc7aed.bindPopup(popup_5adc3788732dc6a5d1c1acf7a6142972)
+        ;
+
+        
+    
+    
+            var circle_marker_e8531cbd35267054e9a9f689f12c50ef = L.circleMarker(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.04, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_6a0304d756cbed960d0439197338c935 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e04c7a1241d813551ff60e94dccb697 = $(`<div id="html_4e04c7a1241d813551ff60e94dccb697" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso do Sul<br>Total Incêndios: 12080</div>`)[0];
+                popup_6a0304d756cbed960d0439197338c935.setContent(html_4e04c7a1241d813551ff60e94dccb697);
+            
+        
+
+        circle_marker_e8531cbd35267054e9a9f689f12c50ef.bindPopup(popup_6a0304d756cbed960d0439197338c935)
+        ;
+
+        
+    
+    
+            var circle_marker_629d34108554d0e71771f43b7523c30c = L.circleMarker(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6885, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_c3b89fbad42ec639e7d639922fc02e1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58134946dc164c8db018be7a3fb667da = $(`<div id="html_58134946dc164c8db018be7a3fb667da" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso do Sul<br>Total Incêndios: 9377</div>`)[0];
+                popup_c3b89fbad42ec639e7d639922fc02e1e.setContent(html_58134946dc164c8db018be7a3fb667da);
+            
+        
+
+        circle_marker_629d34108554d0e71771f43b7523c30c.bindPopup(popup_c3b89fbad42ec639e7d639922fc02e1e)
+        ;
+
+        
+    
+    
+            var circle_marker_3fb466d1cd193d0071f0dd8f0dec1d7e = L.circleMarker(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0275, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_8ebf4a51ceaff4838f29b15344f15c5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b75155eac0328697e01449d60213fca4 = $(`<div id="html_b75155eac0328697e01449d60213fca4" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso do Sul<br>Total Incêndios: 2055</div>`)[0];
+                popup_8ebf4a51ceaff4838f29b15344f15c5c.setContent(html_b75155eac0328697e01449d60213fca4);
+            
+        
+
+        circle_marker_3fb466d1cd193d0071f0dd8f0dec1d7e.bindPopup(popup_8ebf4a51ceaff4838f29b15344f15c5c)
+        ;
+
+        
+    
+    
+            var circle_marker_857234d12e745033a8bbb38a38eb7c54 = L.circleMarker(
+                [-10.9, -37.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0385, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_d572296234e6bfac07125d777fd9f7d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d735d852cd88106a331d9d010c2bc8f = $(`<div id="html_4d735d852cd88106a331d9d010c2bc8f" style="width: 100.0%; height: 100.0%;">Estado: Sergipe<br>Total Incêndios: 77</div>`)[0];
+                popup_d572296234e6bfac07125d777fd9f7d0.setContent(html_4d735d852cd88106a331d9d010c2bc8f);
+            
+        
+
+        circle_marker_857234d12e745033a8bbb38a38eb7c54.bindPopup(popup_d572296234e6bfac07125d777fd9f7d0)
+        ;
+
+        
+    
+    
+            var circle_marker_bdd940e2407ab0f81138d40261d0ae9e = L.circleMarker(
+                [-10.9, -37.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_57ec853f320846c999113965de29d58b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cf2cc4e56c37bfa97d8adf232c5631f = $(`<div id="html_8cf2cc4e56c37bfa97d8adf232c5631f" style="width: 100.0%; height: 100.0%;">Estado: Sergipe<br>Total Incêndios: 140</div>`)[0];
+                popup_57ec853f320846c999113965de29d58b.setContent(html_8cf2cc4e56c37bfa97d8adf232c5631f);
+            
+        
+
+        circle_marker_bdd940e2407ab0f81138d40261d0ae9e.bindPopup(popup_57ec853f320846c999113965de29d58b)
+        ;
+
+        
+    
+    
+            var circle_marker_75b5fc136f5438f3c3626cc783ba1f71 = L.circleMarker(
+                [-10.9, -37.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0405, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_505de5401160b8602cede40be56914b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bd5e392589e7e7f33fc70bdbb8fa471 = $(`<div id="html_4bd5e392589e7e7f33fc70bdbb8fa471" style="width: 100.0%; height: 100.0%;">Estado: Sergipe<br>Total Incêndios: 81</div>`)[0];
+                popup_505de5401160b8602cede40be56914b3.setContent(html_4bd5e392589e7e7f33fc70bdbb8fa471);
+            
+        
+
+        circle_marker_75b5fc136f5438f3c3626cc783ba1f71.bindPopup(popup_505de5401160b8602cede40be56914b3)
+        ;
+
+        
+    
+    
+            var circle_marker_a732a3f8793f14c057c44be667678e77 = L.circleMarker(
+                [-10.9, -37.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0385, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_903ff187d3038f7c24627f103aff2b34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bb4898bc35e2a4cc4ea9a0b17e09105 = $(`<div id="html_1bb4898bc35e2a4cc4ea9a0b17e09105" style="width: 100.0%; height: 100.0%;">Estado: Sergipe<br>Total Incêndios: 77</div>`)[0];
+                popup_903ff187d3038f7c24627f103aff2b34.setContent(html_1bb4898bc35e2a4cc4ea9a0b17e09105);
+            
+        
+
+        circle_marker_a732a3f8793f14c057c44be667678e77.bindPopup(popup_903ff187d3038f7c24627f103aff2b34)
+        ;
+
+        
+    
+    
+            var circle_marker_7839125cff302afbf8ed473889586110 = L.circleMarker(
+                [-10.9, -37.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.066, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_cc95121e5087d37a5e7dc9e318b1da7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b72b93aa3a67e726bebf8c1e45b70e93 = $(`<div id="html_b72b93aa3a67e726bebf8c1e45b70e93" style="width: 100.0%; height: 100.0%;">Estado: Sergipe<br>Total Incêndios: 132</div>`)[0];
+                popup_cc95121e5087d37a5e7dc9e318b1da7a.setContent(html_b72b93aa3a67e726bebf8c1e45b70e93);
+            
+        
+
+        circle_marker_7839125cff302afbf8ed473889586110.bindPopup(popup_cc95121e5087d37a5e7dc9e318b1da7a)
+        ;
+
+        
+    
+    
+            var circle_marker_e55bc73dc4c260baddea224b4066ea75 = L.circleMarker(
+                [-10.9, -37.07],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0335, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_07933454d15029ac4bc56bbce51673df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3394b526864cada193bab4fabe834f81 = $(`<div id="html_3394b526864cada193bab4fabe834f81" style="width: 100.0%; height: 100.0%;">Estado: Sergipe<br>Total Incêndios: 67</div>`)[0];
+                popup_07933454d15029ac4bc56bbce51673df.setContent(html_3394b526864cada193bab4fabe834f81);
+            
+        
+
+        circle_marker_e55bc73dc4c260baddea224b4066ea75.bindPopup(popup_07933454d15029ac4bc56bbce51673df)
+        ;
+
+        
+    
+    
+            var circle_marker_0db33392045ecc1c03a19ffa12dc1f50 = L.circleMarker(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1475, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_c4a551eb1ace59801675ee3eebdf1748 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a32d78bffeb461382a01419a5e61311 = $(`<div id="html_0a32d78bffeb461382a01419a5e61311" style="width: 100.0%; height: 100.0%;">Estado: Acre<br>Total Incêndios: 6295</div>`)[0];
+                popup_c4a551eb1ace59801675ee3eebdf1748.setContent(html_0a32d78bffeb461382a01419a5e61311);
+            
+        
+
+        circle_marker_0db33392045ecc1c03a19ffa12dc1f50.bindPopup(popup_c4a551eb1ace59801675ee3eebdf1748)
+        ;
+
+        
+    
+    
+            var circle_marker_d74d2e1a6a937928f31cbf94c411ca1a = L.circleMarker(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.313, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_9f2af4d79f9a3d879227087de9cf6fbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ab9a89993b197c761aecb62c429f891 = $(`<div id="html_7ab9a89993b197c761aecb62c429f891" style="width: 100.0%; height: 100.0%;">Estado: Acre<br>Total Incêndios: 6626</div>`)[0];
+                popup_9f2af4d79f9a3d879227087de9cf6fbf.setContent(html_7ab9a89993b197c761aecb62c429f891);
+            
+        
+
+        circle_marker_d74d2e1a6a937928f31cbf94c411ca1a.bindPopup(popup_9f2af4d79f9a3d879227087de9cf6fbf)
+        ;
+
+        
+    
+    
+            var circle_marker_5c6636d274639df7647fd1640cac9122 = L.circleMarker(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.401, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_94c337258122b00e942c64488f0cf1a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7b300fb4e53363060a398601aa2032c = $(`<div id="html_e7b300fb4e53363060a398601aa2032c" style="width: 100.0%; height: 100.0%;">Estado: Acre<br>Total Incêndios: 6802</div>`)[0];
+                popup_94c337258122b00e942c64488f0cf1a4.setContent(html_e7b300fb4e53363060a398601aa2032c);
+            
+        
+
+        circle_marker_5c6636d274639df7647fd1640cac9122.bindPopup(popup_94c337258122b00e942c64488f0cf1a4)
+        ;
+
+        
+    
+    
+            var circle_marker_e0eb73151cec85d23de29406746ed2f6 = L.circleMarker(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5965, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_2def4b575b90277acd619ecb656dbe1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8233fd423c8c8e2d5ae75982de32a5eb = $(`<div id="html_8233fd423c8c8e2d5ae75982de32a5eb" style="width: 100.0%; height: 100.0%;">Estado: Acre<br>Total Incêndios: 9193</div>`)[0];
+                popup_2def4b575b90277acd619ecb656dbe1e.setContent(html_8233fd423c8c8e2d5ae75982de32a5eb);
+            
+        
+
+        circle_marker_e0eb73151cec85d23de29406746ed2f6.bindPopup(popup_2def4b575b90277acd619ecb656dbe1e)
+        ;
+
+        
+    
+    
+            var circle_marker_a562c39ea7476711cfdb1c54b995c91b = L.circleMarker(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.414, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_8dbccb56c202d9fafac004a22ba0ede2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e3f41378037f879afd9ec354c259915 = $(`<div id="html_2e3f41378037f879afd9ec354c259915" style="width: 100.0%; height: 100.0%;">Estado: Acre<br>Total Incêndios: 8828</div>`)[0];
+                popup_8dbccb56c202d9fafac004a22ba0ede2.setContent(html_2e3f41378037f879afd9ec354c259915);
+            
+        
+
+        circle_marker_a562c39ea7476711cfdb1c54b995c91b.bindPopup(popup_8dbccb56c202d9fafac004a22ba0ede2)
+        ;
+
+        
+    
+    
+            var circle_marker_de850b0c98e90fa9bbe7828830d36639 = L.circleMarker(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.1725, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1274aacee2d4894652dccba7bfab3b92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7877101dc2d82db91dceb9d6b7490d9 = $(`<div id="html_c7877101dc2d82db91dceb9d6b7490d9" style="width: 100.0%; height: 100.0%;">Estado: Acre<br>Total Incêndios: 10345</div>`)[0];
+                popup_1274aacee2d4894652dccba7bfab3b92.setContent(html_c7877101dc2d82db91dceb9d6b7490d9);
+            
+        
+
+        circle_marker_de850b0c98e90fa9bbe7828830d36639.bindPopup(popup_1274aacee2d4894652dccba7bfab3b92)
+        ;
+
+        
+    
+    
+            var circle_marker_33077bf258bfc3109587f89c54c4fdce = L.circleMarker(
+                [-11.22, -62.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.6565, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1ce746d4fd39f0be4e929d05a08575f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b965ed0ff3d7365559499c52b79a0c30 = $(`<div id="html_b965ed0ff3d7365559499c52b79a0c30" style="width: 100.0%; height: 100.0%;">Estado: Rondônia<br>Total Incêndios: 11313</div>`)[0];
+                popup_1ce746d4fd39f0be4e929d05a08575f7.setContent(html_b965ed0ff3d7365559499c52b79a0c30);
+            
+        
+
+        circle_marker_33077bf258bfc3109587f89c54c4fdce.bindPopup(popup_1ce746d4fd39f0be4e929d05a08575f7)
+        ;
+
+        
+    
+    
+            var circle_marker_f6946728eae1e17d7a70da48d01f79b9 = L.circleMarker(
+                [-11.22, -62.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.1275, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_810eff29f8cc12fc8ca5effe7725ce99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25b47657d22bac4cc3cf899644324342 = $(`<div id="html_25b47657d22bac4cc3cf899644324342" style="width: 100.0%; height: 100.0%;">Estado: Rondônia<br>Total Incêndios: 10255</div>`)[0];
+                popup_810eff29f8cc12fc8ca5effe7725ce99.setContent(html_25b47657d22bac4cc3cf899644324342);
+            
+        
+
+        circle_marker_f6946728eae1e17d7a70da48d01f79b9.bindPopup(popup_810eff29f8cc12fc8ca5effe7725ce99)
+        ;
+
+        
+    
+    
+            var circle_marker_4897bb7bdd6eff1ef46aedd820662cc5 = L.circleMarker(
+                [-11.22, -62.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.615, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_8dda8465f35e6754e9d9ecfcfc250cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feba5aa857887d1143ac658cece67889 = $(`<div id="html_feba5aa857887d1143ac658cece67889" style="width: 100.0%; height: 100.0%;">Estado: Rondônia<br>Total Incêndios: 11230</div>`)[0];
+                popup_8dda8465f35e6754e9d9ecfcfc250cd8.setContent(html_feba5aa857887d1143ac658cece67889);
+            
+        
+
+        circle_marker_4897bb7bdd6eff1ef46aedd820662cc5.bindPopup(popup_8dda8465f35e6754e9d9ecfcfc250cd8)
+        ;
+
+        
+    
+    
+            var circle_marker_a48ab57b2f16020000f1cdded2b685fe = L.circleMarker(
+                [-11.22, -62.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5725, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a7caa3f357ad5beaa8dd3a0453e2c25e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdfae5dae38d88ac12e623397298d3b1 = $(`<div id="html_fdfae5dae38d88ac12e623397298d3b1" style="width: 100.0%; height: 100.0%;">Estado: Rondônia<br>Total Incêndios: 11145</div>`)[0];
+                popup_a7caa3f357ad5beaa8dd3a0453e2c25e.setContent(html_fdfae5dae38d88ac12e623397298d3b1);
+            
+        
+
+        circle_marker_a48ab57b2f16020000f1cdded2b685fe.bindPopup(popup_a7caa3f357ad5beaa8dd3a0453e2c25e)
+        ;
+
+        
+    
+    
+            var circle_marker_2706cf45ccc267b865a3c593f42c0060 = L.circleMarker(
+                [-11.22, -62.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.015, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_0ab26e6fdabfb98aa5df515311318e16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc71e67962940dbaa1c52f938e09d3e0 = $(`<div id="html_cc71e67962940dbaa1c52f938e09d3e0" style="width: 100.0%; height: 100.0%;">Estado: Rondônia<br>Total Incêndios: 10030</div>`)[0];
+                popup_0ab26e6fdabfb98aa5df515311318e16.setContent(html_cc71e67962940dbaa1c52f938e09d3e0);
+            
+        
+
+        circle_marker_2706cf45ccc267b865a3c593f42c0060.bindPopup(popup_0ab26e6fdabfb98aa5df515311318e16)
+        ;
+
+        
+    
+    
+            var circle_marker_bc9f8db80ad2d0f9219c8aa636244687 = L.circleMarker(
+                [-11.22, -62.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.115, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_50e631230e84e8aa20ec88d172ca86e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b3a98c35e135a5af7281632b85a3552 = $(`<div id="html_6b3a98c35e135a5af7281632b85a3552" style="width: 100.0%; height: 100.0%;">Estado: Rondônia<br>Total Incêndios: 10230</div>`)[0];
+                popup_50e631230e84e8aa20ec88d172ca86e0.setContent(html_6b3a98c35e135a5af7281632b85a3552);
+            
+        
+
+        circle_marker_bc9f8db80ad2d0f9219c8aa636244687.bindPopup(popup_50e631230e84e8aa20ec88d172ca86e0)
+        ;
+
+        
+    
+    
+            var circle_marker_48a001d569b641dbb270fbe61daaf189 = L.circleMarker(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1435, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_007d08eba2bddb26d5136d97932520cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a125bd0efbe616a0564ff2a4809070c1 = $(`<div id="html_a125bd0efbe616a0564ff2a4809070c1" style="width: 100.0%; height: 100.0%;">Estado: Distrito Federal<br>Total Incêndios: 287</div>`)[0];
+                popup_007d08eba2bddb26d5136d97932520cc.setContent(html_a125bd0efbe616a0564ff2a4809070c1);
+            
+        
+
+        circle_marker_48a001d569b641dbb270fbe61daaf189.bindPopup(popup_007d08eba2bddb26d5136d97932520cc)
+        ;
+
+        
+    
+    
+            var circle_marker_242cf551c2a7026dbf26d6e0c10c98a6 = L.circleMarker(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.044, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_f334432a87a9a6a55840458c5aac35c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a4aa28a0017c66b02ea81e6ca47a90e = $(`<div id="html_0a4aa28a0017c66b02ea81e6ca47a90e" style="width: 100.0%; height: 100.0%;">Estado: Distrito Federal<br>Total Incêndios: 88</div>`)[0];
+                popup_f334432a87a9a6a55840458c5aac35c1.setContent(html_0a4aa28a0017c66b02ea81e6ca47a90e);
+            
+        
+
+        circle_marker_242cf551c2a7026dbf26d6e0c10c98a6.bindPopup(popup_f334432a87a9a6a55840458c5aac35c1)
+        ;
+
+        
+    
+    
+            var circle_marker_bb3fffaed1dd2fd2249125ec8f8eaa17 = L.circleMarker(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1065, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_2ab81b9c8eaa1cf787bbd66647e3ec18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_601dcfe3d5f9d7b8c2798c332fabaf21 = $(`<div id="html_601dcfe3d5f9d7b8c2798c332fabaf21" style="width: 100.0%; height: 100.0%;">Estado: Distrito Federal<br>Total Incêndios: 213</div>`)[0];
+                popup_2ab81b9c8eaa1cf787bbd66647e3ec18.setContent(html_601dcfe3d5f9d7b8c2798c332fabaf21);
+            
+        
+
+        circle_marker_bb3fffaed1dd2fd2249125ec8f8eaa17.bindPopup(popup_2ab81b9c8eaa1cf787bbd66647e3ec18)
+        ;
+
+        
+    
+    
+            var circle_marker_69830574c279141acf4d56cad1a7b1a3 = L.circleMarker(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.098, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_5ad4825cf1817449a4a4f8833b7f9f50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_145dc580c235ff1ad114e0843eee6e63 = $(`<div id="html_145dc580c235ff1ad114e0843eee6e63" style="width: 100.0%; height: 100.0%;">Estado: Distrito Federal<br>Total Incêndios: 196</div>`)[0];
+                popup_5ad4825cf1817449a4a4f8833b7f9f50.setContent(html_145dc580c235ff1ad114e0843eee6e63);
+            
+        
+
+        circle_marker_69830574c279141acf4d56cad1a7b1a3.bindPopup(popup_5ad4825cf1817449a4a4f8833b7f9f50)
+        ;
+
+        
+    
+    
+            var circle_marker_54ded510e5ac946402e291bc93f79456 = L.circleMarker(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1295, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_ac2f4828cdd7da07e2714603bb7a8b3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44ad56f878a3989409ea37bde46804a = $(`<div id="html_c44ad56f878a3989409ea37bde46804a" style="width: 100.0%; height: 100.0%;">Estado: Distrito Federal<br>Total Incêndios: 259</div>`)[0];
+                popup_ac2f4828cdd7da07e2714603bb7a8b3f.setContent(html_c44ad56f878a3989409ea37bde46804a);
+            
+        
+
+        circle_marker_54ded510e5ac946402e291bc93f79456.bindPopup(popup_ac2f4828cdd7da07e2714603bb7a8b3f)
+        ;
+
+        
+    
+    
+            var circle_marker_49d0d021a3571fe3ec6a6fb4ccf59459 = L.circleMarker(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.121, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_9909ed2d52e5dda380b7aba70663be33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_835ef2d2d7d2ff6f4ea3b323a0bebcbb = $(`<div id="html_835ef2d2d7d2ff6f4ea3b323a0bebcbb" style="width: 100.0%; height: 100.0%;">Estado: Distrito Federal<br>Total Incêndios: 242</div>`)[0];
+                popup_9909ed2d52e5dda380b7aba70663be33.setContent(html_835ef2d2d7d2ff6f4ea3b323a0bebcbb);
+            
+        
+
+        circle_marker_49d0d021a3571fe3ec6a6fb4ccf59459.bindPopup(popup_9909ed2d52e5dda380b7aba70663be33)
+        ;
+
+        
+    
+    
+            var circle_marker_1d1f721afd0f24db6ccabb00c63f6c6c = L.circleMarker(
+                [-22.84, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4795, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_63e611a090bbb89db3fb520b91643038 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8e1583bfa1fcabd485e4422f4ef59a = $(`<div id="html_8f8e1583bfa1fcabd485e4422f4ef59a" style="width: 100.0%; height: 100.0%;">Estado: Rio de Janeiro<br>Total Incêndios: 959</div>`)[0];
+                popup_63e611a090bbb89db3fb520b91643038.setContent(html_8f8e1583bfa1fcabd485e4422f4ef59a);
+            
+        
+
+        circle_marker_1d1f721afd0f24db6ccabb00c63f6c6c.bindPopup(popup_63e611a090bbb89db3fb520b91643038)
+        ;
+
+        
+    
+    
+            var circle_marker_19209983a7a8fb46dcd9411ccfad221a = L.circleMarker(
+                [-22.84, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.123, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_148aa98b168e642fb74a48c7b7417b13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7e14225085394b2059517628a368271 = $(`<div id="html_c7e14225085394b2059517628a368271" style="width: 100.0%; height: 100.0%;">Estado: Rio de Janeiro<br>Total Incêndios: 246</div>`)[0];
+                popup_148aa98b168e642fb74a48c7b7417b13.setContent(html_c7e14225085394b2059517628a368271);
+            
+        
+
+        circle_marker_19209983a7a8fb46dcd9411ccfad221a.bindPopup(popup_148aa98b168e642fb74a48c7b7417b13)
+        ;
+
+        
+    
+    
+            var circle_marker_80dd5f0d3f7ef8d7841d67f07059fde3 = L.circleMarker(
+                [-22.84, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.356, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_911155a07a9e8f1190a5688f9abb67f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be93721f55b91e86f19e1fde762c8d75 = $(`<div id="html_be93721f55b91e86f19e1fde762c8d75" style="width: 100.0%; height: 100.0%;">Estado: Rio de Janeiro<br>Total Incêndios: 712</div>`)[0];
+                popup_911155a07a9e8f1190a5688f9abb67f8.setContent(html_be93721f55b91e86f19e1fde762c8d75);
+            
+        
+
+        circle_marker_80dd5f0d3f7ef8d7841d67f07059fde3.bindPopup(popup_911155a07a9e8f1190a5688f9abb67f8)
+        ;
+
+        
+    
+    
+            var circle_marker_453e81e7cd0b2aecaf56958661aebc92 = L.circleMarker(
+                [-22.84, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3465, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1b01229b2c7e05707cbb57b858042e34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fda98a76c04ccb1d8e597446884e8194 = $(`<div id="html_fda98a76c04ccb1d8e597446884e8194" style="width: 100.0%; height: 100.0%;">Estado: Rio de Janeiro<br>Total Incêndios: 693</div>`)[0];
+                popup_1b01229b2c7e05707cbb57b858042e34.setContent(html_fda98a76c04ccb1d8e597446884e8194);
+            
+        
+
+        circle_marker_453e81e7cd0b2aecaf56958661aebc92.bindPopup(popup_1b01229b2c7e05707cbb57b858042e34)
+        ;
+
+        
+    
+    
+            var circle_marker_75e22813224e339fb876262ca59392fb = L.circleMarker(
+                [-22.84, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.251, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_0298ea42db38d14a097dfdc3e13857c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d4d41805d52cc8fa2e2b66258cc7e0b = $(`<div id="html_8d4d41805d52cc8fa2e2b66258cc7e0b" style="width: 100.0%; height: 100.0%;">Estado: Rio de Janeiro<br>Total Incêndios: 502</div>`)[0];
+                popup_0298ea42db38d14a097dfdc3e13857c7.setContent(html_8d4d41805d52cc8fa2e2b66258cc7e0b);
+            
+        
+
+        circle_marker_75e22813224e339fb876262ca59392fb.bindPopup(popup_0298ea42db38d14a097dfdc3e13857c7)
+        ;
+
+        
+    
+    
+            var circle_marker_ab6c0a6e99d6874e3368e2d2a3a2195a = L.circleMarker(
+                [-22.84, -43.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.354, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_4ac8036918d87cbd36e2442c5697eafa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c74197aa4f844f1a9f99c10610050dc = $(`<div id="html_9c74197aa4f844f1a9f99c10610050dc" style="width: 100.0%; height: 100.0%;">Estado: Rio de Janeiro<br>Total Incêndios: 708</div>`)[0];
+                popup_4ac8036918d87cbd36e2442c5697eafa.setContent(html_9c74197aa4f844f1a9f99c10610050dc);
+            
+        
+
+        circle_marker_ab6c0a6e99d6874e3368e2d2a3a2195a.bindPopup(popup_4ac8036918d87cbd36e2442c5697eafa)
+        ;
+
+        
+    
+    
+            var circle_marker_79da54cf06354ec3cb2996b1cce861f4 = L.circleMarker(
+                [-10.25, -48.25],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8365, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e1f59e260178b45caadcaf74c8fff293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40496d066bdbacb7e004fc31fa53f8f8 = $(`<div id="html_40496d066bdbacb7e004fc31fa53f8f8" style="width: 100.0%; height: 100.0%;">Estado: Tocantins<br>Total Incêndios: 15673</div>`)[0];
+                popup_e1f59e260178b45caadcaf74c8fff293.setContent(html_40496d066bdbacb7e004fc31fa53f8f8);
+            
+        
+
+        circle_marker_79da54cf06354ec3cb2996b1cce861f4.bindPopup(popup_e1f59e260178b45caadcaf74c8fff293)
+        ;
+
+        
+    
+    
+            var circle_marker_38da74a1ff0d871fc91ca89593038029 = L.circleMarker(
+                [-10.25, -48.25],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0165, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1ce7344eda88e808743212b0c535cac9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4f7f7442362413295eb132a9454b924 = $(`<div id="html_e4f7f7442362413295eb132a9454b924" style="width: 100.0%; height: 100.0%;">Estado: Tocantins<br>Total Incêndios: 8033</div>`)[0];
+                popup_1ce7344eda88e808743212b0c535cac9.setContent(html_e4f7f7442362413295eb132a9454b924);
+            
+        
+
+        circle_marker_38da74a1ff0d871fc91ca89593038029.bindPopup(popup_1ce7344eda88e808743212b0c535cac9)
+        ;
+
+        
+    
+    
+            var circle_marker_65683a74348b8c336adc7d58a655502c = L.circleMarker(
+                [-10.25, -48.25],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8125, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_799cb4ca11295b038e1022eeae40a875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee163c9469b88852f97a70e420a45ca5 = $(`<div id="html_ee163c9469b88852f97a70e420a45ca5" style="width: 100.0%; height: 100.0%;">Estado: Tocantins<br>Total Incêndios: 13625</div>`)[0];
+                popup_799cb4ca11295b038e1022eeae40a875.setContent(html_ee163c9469b88852f97a70e420a45ca5);
+            
+        
+
+        circle_marker_65683a74348b8c336adc7d58a655502c.bindPopup(popup_799cb4ca11295b038e1022eeae40a875)
+        ;
+
+        
+    
+    
+            var circle_marker_38fc17f8f531490927d35c7557437ef5 = L.circleMarker(
+                [-10.25, -48.25],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0465, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_2e968d80bfd85e38ab0dcc7b743aefe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a29c63698ab4d518fb65f0ef3e64acb = $(`<div id="html_0a29c63698ab4d518fb65f0ef3e64acb" style="width: 100.0%; height: 100.0%;">Estado: Tocantins<br>Total Incêndios: 12093</div>`)[0];
+                popup_2e968d80bfd85e38ab0dcc7b743aefe6.setContent(html_0a29c63698ab4d518fb65f0ef3e64acb);
+            
+        
+
+        circle_marker_38fc17f8f531490927d35c7557437ef5.bindPopup(popup_2e968d80bfd85e38ab0dcc7b743aefe6)
+        ;
+
+        
+    
+    
+            var circle_marker_a4a9b31b5391ed7546d1d8075df14bee = L.circleMarker(
+                [-10.25, -48.25],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0035, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a9da8d14faca4b27c1b5063a884b3a2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47b8e7fa2981e36594425a570fe69cbd = $(`<div id="html_47b8e7fa2981e36594425a570fe69cbd" style="width: 100.0%; height: 100.0%;">Estado: Tocantins<br>Total Incêndios: 10007</div>`)[0];
+                popup_a9da8d14faca4b27c1b5063a884b3a2c.setContent(html_47b8e7fa2981e36594425a570fe69cbd);
+            
+        
+
+        circle_marker_a4a9b31b5391ed7546d1d8075df14bee.bindPopup(popup_a9da8d14faca4b27c1b5063a884b3a2c)
+        ;
+
+        
+    
+    
+            var circle_marker_35843d159b4fc9089bba503dbef951f6 = L.circleMarker(
+                [-10.25, -48.25],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.211, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_7fd8a56b4f71c6b3b9ae58f6acdadcfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8033bd216272ef7c6882c976b821943c = $(`<div id="html_8033bd216272ef7c6882c976b821943c" style="width: 100.0%; height: 100.0%;">Estado: Tocantins<br>Total Incêndios: 10422</div>`)[0];
+                popup_7fd8a56b4f71c6b3b9ae58f6acdadcfb.setContent(html_8033bd216272ef7c6882c976b821943c);
+            
+        
+
+        circle_marker_35843d159b4fc9089bba503dbef951f6.bindPopup(popup_7fd8a56b4f71c6b3b9ae58f6acdadcfb)
+        ;
+
+        
+    
+    
+            var circle_marker_337ae2074ab173bd80199facd7f88cb0 = L.circleMarker(
+                [-7.06, -35.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1815, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_951f5bc10f841208004811bb5f81835b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3168ad9b5ecb5d789af57a89d98c7916 = $(`<div id="html_3168ad9b5ecb5d789af57a89d98c7916" style="width: 100.0%; height: 100.0%;">Estado: Paraíba<br>Total Incêndios: 363</div>`)[0];
+                popup_951f5bc10f841208004811bb5f81835b.setContent(html_3168ad9b5ecb5d789af57a89d98c7916);
+            
+        
+
+        circle_marker_337ae2074ab173bd80199facd7f88cb0.bindPopup(popup_951f5bc10f841208004811bb5f81835b)
+        ;
+
+        
+    
+    
+            var circle_marker_6433d5a8a0f52799a128078da627d96c = L.circleMarker(
+                [-7.06, -35.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3795, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1b7b34a69e5be18de6297a57c83f5ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b61659559d0795f3c9eef963f4deab6 = $(`<div id="html_6b61659559d0795f3c9eef963f4deab6" style="width: 100.0%; height: 100.0%;">Estado: Paraíba<br>Total Incêndios: 759</div>`)[0];
+                popup_1b7b34a69e5be18de6297a57c83f5ae5.setContent(html_6b61659559d0795f3c9eef963f4deab6);
+            
+        
+
+        circle_marker_6433d5a8a0f52799a128078da627d96c.bindPopup(popup_1b7b34a69e5be18de6297a57c83f5ae5)
+        ;
+
+        
+    
+    
+            var circle_marker_9eaa39d381f7365577ffdbeee89448e6 = L.circleMarker(
+                [-7.06, -35.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.592, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_9cad08430d27c4d2bd78ae301b8c1c38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7252d2b6aa9c7dfa8a5d2cbeb28d5dd5 = $(`<div id="html_7252d2b6aa9c7dfa8a5d2cbeb28d5dd5" style="width: 100.0%; height: 100.0%;">Estado: Paraíba<br>Total Incêndios: 1184</div>`)[0];
+                popup_9cad08430d27c4d2bd78ae301b8c1c38.setContent(html_7252d2b6aa9c7dfa8a5d2cbeb28d5dd5);
+            
+        
+
+        circle_marker_9eaa39d381f7365577ffdbeee89448e6.bindPopup(popup_9cad08430d27c4d2bd78ae301b8c1c38)
+        ;
+
+        
+    
+    
+            var circle_marker_0cde6d63f9876846edae16a41c0c4133 = L.circleMarker(
+                [-7.06, -35.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.455, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_cafe5abedfcc10c7c4e039fa8362985a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e5c7d056f7621eb3a0ead845f45d66 = $(`<div id="html_f7e5c7d056f7621eb3a0ead845f45d66" style="width: 100.0%; height: 100.0%;">Estado: Paraíba<br>Total Incêndios: 910</div>`)[0];
+                popup_cafe5abedfcc10c7c4e039fa8362985a.setContent(html_f7e5c7d056f7621eb3a0ead845f45d66);
+            
+        
+
+        circle_marker_0cde6d63f9876846edae16a41c0c4133.bindPopup(popup_cafe5abedfcc10c7c4e039fa8362985a)
+        ;
+
+        
+    
+    
+            var circle_marker_ec536fddd201e4fb68f4109410e39b9e = L.circleMarker(
+                [-7.06, -35.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4535, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_52de5be88ef79079470d25c10c549523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adcea4fa0689799fecde55265fd150ec = $(`<div id="html_adcea4fa0689799fecde55265fd150ec" style="width: 100.0%; height: 100.0%;">Estado: Paraíba<br>Total Incêndios: 907</div>`)[0];
+                popup_52de5be88ef79079470d25c10c549523.setContent(html_adcea4fa0689799fecde55265fd150ec);
+            
+        
+
+        circle_marker_ec536fddd201e4fb68f4109410e39b9e.bindPopup(popup_52de5be88ef79079470d25c10c549523)
+        ;
+
+        
+    
+    
+            var circle_marker_753163803366ca82c9eaf6951d83e45b = L.circleMarker(
+                [-7.06, -35.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0665, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_3fdac2f449b11f18247fc0d256891cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cf901a5b37ab3df5fa61eca5e6e96fb = $(`<div id="html_1cf901a5b37ab3df5fa61eca5e6e96fb" style="width: 100.0%; height: 100.0%;">Estado: Paraíba<br>Total Incêndios: 133</div>`)[0];
+                popup_3fdac2f449b11f18247fc0d256891cf0.setContent(html_1cf901a5b37ab3df5fa61eca5e6e96fb);
+            
+        
+
+        circle_marker_753163803366ca82c9eaf6951d83e45b.bindPopup(popup_3fdac2f449b11f18247fc0d256891cf0)
+        ;
+
+        
+    
+    
+            var circle_marker_df15825c41d84fe9a1f33b6d3595aa92 = L.circleMarker(
+                [-3.07, -61.66],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.8425, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_52e1de467be2192b6d15fd2749e526ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_411d5a24b16555129db2667eb08ad7c1 = $(`<div id="html_411d5a24b16555129db2667eb08ad7c1" style="width: 100.0%; height: 100.0%;">Estado: Amazonas<br>Total Incêndios: 11685</div>`)[0];
+                popup_52e1de467be2192b6d15fd2749e526ba.setContent(html_411d5a24b16555129db2667eb08ad7c1);
+            
+        
+
+        circle_marker_df15825c41d84fe9a1f33b6d3595aa92.bindPopup(popup_52e1de467be2192b6d15fd2749e526ba)
+        ;
+
+        
+    
+    
+            var circle_marker_9dc6f416b9e0e49abdefe1aeb611dd72 = L.circleMarker(
+                [-3.07, -61.66],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.723, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_5529935c47040b57c593cc9a32818945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98b858f1fe5029af8860c2b6868cec7 = $(`<div id="html_b98b858f1fe5029af8860c2b6868cec7" style="width: 100.0%; height: 100.0%;">Estado: Amazonas<br>Total Incêndios: 11446</div>`)[0];
+                popup_5529935c47040b57c593cc9a32818945.setContent(html_b98b858f1fe5029af8860c2b6868cec7);
+            
+        
+
+        circle_marker_9dc6f416b9e0e49abdefe1aeb611dd72.bindPopup(popup_5529935c47040b57c593cc9a32818945)
+        ;
+
+        
+    
+    
+            var circle_marker_646768bb7cdef0d6c8df7a44d0a156ca = L.circleMarker(
+                [-3.07, -61.66],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.338, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_b24b5e9329f08a957055fdabfdb97e0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_817df974f548f43a4a75a02acf515740 = $(`<div id="html_817df974f548f43a4a75a02acf515740" style="width: 100.0%; height: 100.0%;">Estado: Amazonas<br>Total Incêndios: 12676</div>`)[0];
+                popup_b24b5e9329f08a957055fdabfdb97e0e.setContent(html_817df974f548f43a4a75a02acf515740);
+            
+        
+
+        circle_marker_646768bb7cdef0d6c8df7a44d0a156ca.bindPopup(popup_b24b5e9329f08a957055fdabfdb97e0e)
+        ;
+
+        
+    
+    
+            var circle_marker_f1f37b82afa4f2a6556509d296b62f2c = L.circleMarker(
+                [-3.07, -61.66],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.3645, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_5732e604dd3b5c61bab7b983e8194c91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52a58f0bbdb5670d7851097b2d372b8e = $(`<div id="html_52a58f0bbdb5670d7851097b2d372b8e" style="width: 100.0%; height: 100.0%;">Estado: Amazonas<br>Total Incêndios: 16729</div>`)[0];
+                popup_5732e604dd3b5c61bab7b983e8194c91.setContent(html_52a58f0bbdb5670d7851097b2d372b8e);
+            
+        
+
+        circle_marker_f1f37b82afa4f2a6556509d296b62f2c.bindPopup(popup_5732e604dd3b5c61bab7b983e8194c91)
+        ;
+
+        
+    
+    
+            var circle_marker_f969dcf8e73879baa597bdeafc547cda = L.circleMarker(
+                [-3.07, -61.66],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.424, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_dfc8e1c3bbf2473cc9c2a1668cc0afcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2abadab8e2e6ebb324ececca407f960f = $(`<div id="html_2abadab8e2e6ebb324ececca407f960f" style="width: 100.0%; height: 100.0%;">Estado: Amazonas<br>Total Incêndios: 14848</div>`)[0];
+                popup_dfc8e1c3bbf2473cc9c2a1668cc0afcb.setContent(html_2abadab8e2e6ebb324ececca407f960f);
+            
+        
+
+        circle_marker_f969dcf8e73879baa597bdeafc547cda.bindPopup(popup_dfc8e1c3bbf2473cc9c2a1668cc0afcb)
+        ;
+
+        
+    
+    
+            var circle_marker_ba7fb7d770b55585f9caaeb6a5a57639 = L.circleMarker(
+                [-3.07, -61.66],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4745, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_0378f33479e96d7862fa2851d798ba39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c739635a4cc7d582feda07b5a6177fd = $(`<div id="html_0c739635a4cc7d582feda07b5a6177fd" style="width: 100.0%; height: 100.0%;">Estado: Amazonas<br>Total Incêndios: 18949</div>`)[0];
+                popup_0378f33479e96d7862fa2851d798ba39.setContent(html_0c739635a4cc7d582feda07b5a6177fd);
+            
+        
+
+        circle_marker_ba7fb7d770b55585f9caaeb6a5a57639.bindPopup(popup_0378f33479e96d7862fa2851d798ba39)
+        ;
+
+        
+    
+    
+            var circle_marker_eebd37bb2fe1e8d7ed6dc99a2d2b067e = L.circleMarker(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1915, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1a08ba18f64c6766337c2541df70d926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97727e6c0f3a018458b24a2622802b30 = $(`<div id="html_97727e6c0f3a018458b24a2622802b30" style="width: 100.0%; height: 100.0%;">Estado: Minas Gerais<br>Total Incêndios: 8383</div>`)[0];
+                popup_1a08ba18f64c6766337c2541df70d926.setContent(html_97727e6c0f3a018458b24a2622802b30);
+            
+        
+
+        circle_marker_eebd37bb2fe1e8d7ed6dc99a2d2b067e.bindPopup(popup_1a08ba18f64c6766337c2541df70d926)
+        ;
+
+        
+    
+    
+            var circle_marker_c3bc82000934fdc8df72361db9ae8fe5 = L.circleMarker(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3135, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_41cde28cde38ef3ae77f95e14695f3cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_385fd224e91ee804b8f8cf3da75682a9 = $(`<div id="html_385fd224e91ee804b8f8cf3da75682a9" style="width: 100.0%; height: 100.0%;">Estado: Minas Gerais<br>Total Incêndios: 4627</div>`)[0];
+                popup_41cde28cde38ef3ae77f95e14695f3cc.setContent(html_385fd224e91ee804b8f8cf3da75682a9);
+            
+        
+
+        circle_marker_c3bc82000934fdc8df72361db9ae8fe5.bindPopup(popup_41cde28cde38ef3ae77f95e14695f3cc)
+        ;
+
+        
+    
+    
+            var circle_marker_3b3c7316fd25a7d40904398ad589ec29 = L.circleMarker(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9995, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_149a38ea6bdc8640a0704c2d84e54127 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b0f7ce0e0aa4929ae15eab9caa23794 = $(`<div id="html_7b0f7ce0e0aa4929ae15eab9caa23794" style="width: 100.0%; height: 100.0%;">Estado: Minas Gerais<br>Total Incêndios: 9999</div>`)[0];
+                popup_149a38ea6bdc8640a0704c2d84e54127.setContent(html_7b0f7ce0e0aa4929ae15eab9caa23794);
+            
+        
+
+        circle_marker_3b3c7316fd25a7d40904398ad589ec29.bindPopup(popup_149a38ea6bdc8640a0704c2d84e54127)
+        ;
+
+        
+    
+    
+            var circle_marker_5383bedf1787af61678538fce5652a4c = L.circleMarker(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.3685, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_c6283a68066aa2380911b7632a36f222 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19711d92b2a69b8462e1b0c217501ffa = $(`<div id="html_19711d92b2a69b8462e1b0c217501ffa" style="width: 100.0%; height: 100.0%;">Estado: Minas Gerais<br>Total Incêndios: 8737</div>`)[0];
+                popup_c6283a68066aa2380911b7632a36f222.setContent(html_19711d92b2a69b8462e1b0c217501ffa);
+            
+        
+
+        circle_marker_5383bedf1787af61678538fce5652a4c.bindPopup(popup_c6283a68066aa2380911b7632a36f222)
+        ;
+
+        
+    
+    
+            var circle_marker_7b9c1d9b894540fbb474d1b2c46390fc = L.circleMarker(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.055, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_0a50600919b1fb3eb5451c7ff654e214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4ed3c472c822d4345b44617fd13dec2 = $(`<div id="html_b4ed3c472c822d4345b44617fd13dec2" style="width: 100.0%; height: 100.0%;">Estado: Minas Gerais<br>Total Incêndios: 12110</div>`)[0];
+                popup_0a50600919b1fb3eb5451c7ff654e214.setContent(html_b4ed3c472c822d4345b44617fd13dec2);
+            
+        
+
+        circle_marker_7b9c1d9b894540fbb474d1b2c46390fc.bindPopup(popup_0a50600919b1fb3eb5451c7ff654e214)
+        ;
+
+        
+    
+    
+            var circle_marker_7f18706f7bce079ab0a14123c0679ffe = L.circleMarker(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1905, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_043ab06c7b165e19f799a867d25ca6c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083802203335a800502e8121ca3e1f38 = $(`<div id="html_083802203335a800502e8121ca3e1f38" style="width: 100.0%; height: 100.0%;">Estado: Minas Gerais<br>Total Incêndios: 6381</div>`)[0];
+                popup_043ab06c7b165e19f799a867d25ca6c3.setContent(html_083802203335a800502e8121ca3e1f38);
+            
+        
+
+        circle_marker_7f18706f7bce079ab0a14123c0679ffe.bindPopup(popup_043ab06c7b165e19f799a867d25ca6c3)
+        ;
+
+        
+    
+    
+            var circle_marker_614007bbf07e787a18a089eebe808250 = L.circleMarker(
+                [-16.64, -49.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.214, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_112664c7a3b5d34b008f5eaf1c6aa4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c69fee87d9612b308f3ae03797051e = $(`<div id="html_c5c69fee87d9612b308f3ae03797051e" style="width: 100.0%; height: 100.0%;">Estado: Goiás<br>Total Incêndios: 6428</div>`)[0];
+                popup_112664c7a3b5d34b008f5eaf1c6aa4f1.setContent(html_c5c69fee87d9612b308f3ae03797051e);
+            
+        
+
+        circle_marker_614007bbf07e787a18a089eebe808250.bindPopup(popup_112664c7a3b5d34b008f5eaf1c6aa4f1)
+        ;
+
+        
+    
+    
+            var circle_marker_9cbfd7fbed730a5a0c02026e800e7edb = L.circleMarker(
+                [-16.64, -49.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.555, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_997d81dd646f94ec51b1f7a86eda2c10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53a9e31d8f077d1a2442a626188b6aa1 = $(`<div id="html_53a9e31d8f077d1a2442a626188b6aa1" style="width: 100.0%; height: 100.0%;">Estado: Goiás<br>Total Incêndios: 3110</div>`)[0];
+                popup_997d81dd646f94ec51b1f7a86eda2c10.setContent(html_53a9e31d8f077d1a2442a626188b6aa1);
+            
+        
+
+        circle_marker_9cbfd7fbed730a5a0c02026e800e7edb.bindPopup(popup_997d81dd646f94ec51b1f7a86eda2c10)
+        ;
+
+        
+    
+    
+            var circle_marker_c37533b1e95bf63930810e92c8ada122 = L.circleMarker(
+                [-16.64, -49.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.58, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_df5504006321eae204c2b6d92a53cb0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b97303b9242c980dceeb904fee304756 = $(`<div id="html_b97303b9242c980dceeb904fee304756" style="width: 100.0%; height: 100.0%;">Estado: Goiás<br>Total Incêndios: 7160</div>`)[0];
+                popup_df5504006321eae204c2b6d92a53cb0e.setContent(html_b97303b9242c980dceeb904fee304756);
+            
+        
+
+        circle_marker_c37533b1e95bf63930810e92c8ada122.bindPopup(popup_df5504006321eae204c2b6d92a53cb0e)
+        ;
+
+        
+    
+    
+            var circle_marker_f9bd46d05f1136f729034fefab8c6606 = L.circleMarker(
+                [-16.64, -49.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.004, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bb384f3a63764118cb77914aacd937bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_090b6f9b7833672c50b01b2fec6095b3 = $(`<div id="html_090b6f9b7833672c50b01b2fec6095b3" style="width: 100.0%; height: 100.0%;">Estado: Goiás<br>Total Incêndios: 6008</div>`)[0];
+                popup_bb384f3a63764118cb77914aacd937bf.setContent(html_090b6f9b7833672c50b01b2fec6095b3);
+            
+        
+
+        circle_marker_f9bd46d05f1136f729034fefab8c6606.bindPopup(popup_bb384f3a63764118cb77914aacd937bf)
+        ;
+
+        
+    
+    
+            var circle_marker_505deca2ea66715f8cca3eb44ac92393 = L.circleMarker(
+                [-16.64, -49.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.01, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_c8619791d27ed6150d419a41240a34c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c775e64e85f44a5d0e4aeff4c0ae45a = $(`<div id="html_3c775e64e85f44a5d0e4aeff4c0ae45a" style="width: 100.0%; height: 100.0%;">Estado: Goiás<br>Total Incêndios: 6020</div>`)[0];
+                popup_c8619791d27ed6150d419a41240a34c0.setContent(html_3c775e64e85f44a5d0e4aeff4c0ae45a);
+            
+        
+
+        circle_marker_505deca2ea66715f8cca3eb44ac92393.bindPopup(popup_c8619791d27ed6150d419a41240a34c0)
+        ;
+
+        
+    
+    
+            var circle_marker_ae9d4bd3ee2743a9cea34e3294e75f39 = L.circleMarker(
+                [-16.64, -49.31],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0475, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_3eae74ee20d64ce5b8a798469f1b6627 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ef1d49f23142992493012f4b78b3093 = $(`<div id="html_9ef1d49f23142992493012f4b78b3093" style="width: 100.0%; height: 100.0%;">Estado: Goiás<br>Total Incêndios: 4095</div>`)[0];
+                popup_3eae74ee20d64ce5b8a798469f1b6627.setContent(html_9ef1d49f23142992493012f4b78b3093);
+            
+        
+
+        circle_marker_ae9d4bd3ee2743a9cea34e3294e75f39.bindPopup(popup_3eae74ee20d64ce5b8a798469f1b6627)
+        ;
+
+        
+    
+    
+            var circle_marker_fc4c1033adc7fc1adba86dc33eee77ed = L.circleMarker(
+                [-30.01, -51.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.109, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_84e5054d5a48b74b0223a85366985073 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a0b97e3eb8b063b8f9e16c4b73e3f68 = $(`<div id="html_3a0b97e3eb8b063b8f9e16c4b73e3f68" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Sul<br>Total Incêndios: 2218</div>`)[0];
+                popup_84e5054d5a48b74b0223a85366985073.setContent(html_3a0b97e3eb8b063b8f9e16c4b73e3f68);
+            
+        
+
+        circle_marker_fc4c1033adc7fc1adba86dc33eee77ed.bindPopup(popup_84e5054d5a48b74b0223a85366985073)
+        ;
+
+        
+    
+    
+            var circle_marker_84565deae77a0bda83d53cdb9d9ef202 = L.circleMarker(
+                [-30.01, -51.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8075, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_6d1502f54fecb7335c80250bf74cfe82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5fd40c68f6395424c9636e56d6907fe = $(`<div id="html_a5fd40c68f6395424c9636e56d6907fe" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Sul<br>Total Incêndios: 1615</div>`)[0];
+                popup_6d1502f54fecb7335c80250bf74cfe82.setContent(html_a5fd40c68f6395424c9636e56d6907fe);
+            
+        
+
+        circle_marker_84565deae77a0bda83d53cdb9d9ef202.bindPopup(popup_6d1502f54fecb7335c80250bf74cfe82)
+        ;
+
+        
+    
+    
+            var circle_marker_96beb34eeefe360c5be7fc8ef56a6095 = L.circleMarker(
+                [-30.01, -51.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.598, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_ce96320941e0a228fc7b71e1cf833b09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1138074aa953cff8e5d55d695b03d38 = $(`<div id="html_c1138074aa953cff8e5d55d695b03d38" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Sul<br>Total Incêndios: 3196</div>`)[0];
+                popup_ce96320941e0a228fc7b71e1cf833b09.setContent(html_c1138074aa953cff8e5d55d695b03d38);
+            
+        
+
+        circle_marker_96beb34eeefe360c5be7fc8ef56a6095.bindPopup(popup_ce96320941e0a228fc7b71e1cf833b09)
+        ;
+
+        
+    
+    
+            var circle_marker_a5c9128d1a6a2cf5e2c77e1cab6b80c1 = L.circleMarker(
+                [-30.01, -51.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.806, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_bfaaf519291e34cb76a2f3183987fec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6652a32cae2ff5c6798e34929934e919 = $(`<div id="html_6652a32cae2ff5c6798e34929934e919" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Sul<br>Total Incêndios: 3612</div>`)[0];
+                popup_bfaaf519291e34cb76a2f3183987fec7.setContent(html_6652a32cae2ff5c6798e34929934e919);
+            
+        
+
+        circle_marker_a5c9128d1a6a2cf5e2c77e1cab6b80c1.bindPopup(popup_bfaaf519291e34cb76a2f3183987fec7)
+        ;
+
+        
+    
+    
+            var circle_marker_ee629b5925a687c21c5bc893685430ab = L.circleMarker(
+                [-30.01, -51.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2225, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_1eed00956df9db7a20323242a1e49952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3241888e2fdd279d8c51e2fe2695b119 = $(`<div id="html_3241888e2fdd279d8c51e2fe2695b119" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Sul<br>Total Incêndios: 2445</div>`)[0];
+                popup_1eed00956df9db7a20323242a1e49952.setContent(html_3241888e2fdd279d8c51e2fe2695b119);
+            
+        
+
+        circle_marker_ee629b5925a687c21c5bc893685430ab.bindPopup(popup_1eed00956df9db7a20323242a1e49952)
+        ;
+
+        
+    
+    
+            var circle_marker_3491b98cc30dcfd782b85e2934d9f164 = L.circleMarker(
+                [-30.01, -51.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.66, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_67ff832789ad5b813e2e31ba9fb39085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2472672ce7947343712a7601bbb81383 = $(`<div id="html_2472672ce7947343712a7601bbb81383" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Sul<br>Total Incêndios: 1320</div>`)[0];
+                popup_67ff832789ad5b813e2e31ba9fb39085.setContent(html_2472672ce7947343712a7601bbb81383);
+            
+        
+
+        circle_marker_3491b98cc30dcfd782b85e2934d9f164.bindPopup(popup_67ff832789ad5b813e2e31ba9fb39085)
+        ;
+
+        
+    
+    
+            var circle_marker_d1302bf885de1cc6c5b5fff08812cd7f = L.circleMarker(
+                [-23.55, -46.64],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.951, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_9e46bb578d78f5217713f9b5b0bc8ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8a0c8482652818bfdb0054c35b601c1 = $(`<div id="html_f8a0c8482652818bfdb0054c35b601c1" style="width: 100.0%; height: 100.0%;">Estado: São Paulo<br>Total Incêndios: 3902</div>`)[0];
+                popup_9e46bb578d78f5217713f9b5b0bc8ba8.setContent(html_f8a0c8482652818bfdb0054c35b601c1);
+            
+        
+
+        circle_marker_d1302bf885de1cc6c5b5fff08812cd7f.bindPopup(popup_9e46bb578d78f5217713f9b5b0bc8ba8)
+        ;
+
+        
+    
+    
+            var circle_marker_51b982d8b76d5aa7d34a9c32fae62e68 = L.circleMarker(
+                [-23.55, -46.64],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5095, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a010d98aa40b73d783d39af237851427 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2878452ea9362f184d307d88c9e16cdc = $(`<div id="html_2878452ea9362f184d307d88c9e16cdc" style="width: 100.0%; height: 100.0%;">Estado: São Paulo<br>Total Incêndios: 3019</div>`)[0];
+                popup_a010d98aa40b73d783d39af237851427.setContent(html_2878452ea9362f184d307d88c9e16cdc);
+            
+        
+
+        circle_marker_51b982d8b76d5aa7d34a9c32fae62e68.bindPopup(popup_a010d98aa40b73d783d39af237851427)
+        ;
+
+        
+    
+    
+            var circle_marker_9cd24d00a8a68ae3eb71cc21fa589373 = L.circleMarker(
+                [-23.55, -46.64],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.537, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_ab3c10f8b00cb86eb79e00fe8e0becda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a087d673356774ae87856a1ad87d6d = $(`<div id="html_08a087d673356774ae87856a1ad87d6d" style="width: 100.0%; height: 100.0%;">Estado: São Paulo<br>Total Incêndios: 3074</div>`)[0];
+                popup_ab3c10f8b00cb86eb79e00fe8e0becda.setContent(html_08a087d673356774ae87856a1ad87d6d);
+            
+        
+
+        circle_marker_9cd24d00a8a68ae3eb71cc21fa589373.bindPopup(popup_ab3c10f8b00cb86eb79e00fe8e0becda)
+        ;
+
+        
+    
+    
+            var circle_marker_731f7bead94fff0cdd0e24f4ffcbf54f = L.circleMarker(
+                [-23.55, -46.64],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0615, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_df330741a747bba84da70b50e320bd42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acdb6b8a3cc9da474e34028c27c6a2dd = $(`<div id="html_acdb6b8a3cc9da474e34028c27c6a2dd" style="width: 100.0%; height: 100.0%;">Estado: São Paulo<br>Total Incêndios: 6123</div>`)[0];
+                popup_df330741a747bba84da70b50e320bd42.setContent(html_acdb6b8a3cc9da474e34028c27c6a2dd);
+            
+        
+
+        circle_marker_731f7bead94fff0cdd0e24f4ffcbf54f.bindPopup(popup_df330741a747bba84da70b50e320bd42)
+        ;
+
+        
+    
+    
+            var circle_marker_95d6ba300e7a67ec72c402e9ecd2a827 = L.circleMarker(
+                [-23.55, -46.64],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7345, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a99fe1c9413e1fe88eca853f78609d85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35ace7e58054c3ea318908dcc0cce0cc = $(`<div id="html_35ace7e58054c3ea318908dcc0cce0cc" style="width: 100.0%; height: 100.0%;">Estado: São Paulo<br>Total Incêndios: 5469</div>`)[0];
+                popup_a99fe1c9413e1fe88eca853f78609d85.setContent(html_35ace7e58054c3ea318908dcc0cce0cc);
+            
+        
+
+        circle_marker_95d6ba300e7a67ec72c402e9ecd2a827.bindPopup(popup_a99fe1c9413e1fe88eca853f78609d85)
+        ;
+
+        
+    
+    
+            var circle_marker_fec138f29e065aebfb109d4aa6ac9e59 = L.circleMarker(
+                [-23.55, -46.64],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.736, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_23d4101bd21c31efa3b27826a3fd4b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6bb2ee799c06e78a554a8f825ef558e = $(`<div id="html_c6bb2ee799c06e78a554a8f825ef558e" style="width: 100.0%; height: 100.0%;">Estado: São Paulo<br>Total Incêndios: 1472</div>`)[0];
+                popup_23d4101bd21c31efa3b27826a3fd4b16.setContent(html_c6bb2ee799c06e78a554a8f825ef558e);
+            
+        
+
+        circle_marker_fec138f29e065aebfb109d4aa6ac9e59.bindPopup(popup_23d4101bd21c31efa3b27826a3fd4b16)
+        ;
+
+        
+    
+    
+            var circle_marker_ac56de0fe5da3cb9d1b773a1f4398c5a = L.circleMarker(
+                [-2.55, -44.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.788, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_264554bd3928ef25fa344206125c8ba9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26d999521726aeceade396cdb0e40b42 = $(`<div id="html_26d999521726aeceade396cdb0e40b42" style="width: 100.0%; height: 100.0%;">Estado: Maranhão<br>Total Incêndios: 25576</div>`)[0];
+                popup_264554bd3928ef25fa344206125c8ba9.setContent(html_26d999521726aeceade396cdb0e40b42);
+            
+        
+
+        circle_marker_ac56de0fe5da3cb9d1b773a1f4398c5a.bindPopup(popup_264554bd3928ef25fa344206125c8ba9)
+        ;
+
+        
+    
+    
+            var circle_marker_d833b02b614e140e96eee242653ffa7b = L.circleMarker(
+                [-2.55, -44.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.946, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_73cbb7d66bc494a8b925bcbdcd208db2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28cc8bce1c3ccda5287c7bae05ce3900 = $(`<div id="html_28cc8bce1c3ccda5287c7bae05ce3900" style="width: 100.0%; height: 100.0%;">Estado: Maranhão<br>Total Incêndios: 13892</div>`)[0];
+                popup_73cbb7d66bc494a8b925bcbdcd208db2.setContent(html_28cc8bce1c3ccda5287c7bae05ce3900);
+            
+        
+
+        circle_marker_d833b02b614e140e96eee242653ffa7b.bindPopup(popup_73cbb7d66bc494a8b925bcbdcd208db2)
+        ;
+
+        
+    
+    
+            var circle_marker_bc395292e165f9fe08c4f2fdda83ca27 = L.circleMarker(
+                [-2.55, -44.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2605, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e413dd2886e459b1c7d03d0dff67f84e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_288377edfc3cd0674a579614b51b27c3 = $(`<div id="html_288377edfc3cd0674a579614b51b27c3" style="width: 100.0%; height: 100.0%;">Estado: Maranhão<br>Total Incêndios: 18521</div>`)[0];
+                popup_e413dd2886e459b1c7d03d0dff67f84e.setContent(html_288377edfc3cd0674a579614b51b27c3);
+            
+        
+
+        circle_marker_bc395292e165f9fe08c4f2fdda83ca27.bindPopup(popup_e413dd2886e459b1c7d03d0dff67f84e)
+        ;
+
+        
+    
+    
+            var circle_marker_b81756ffb5db36f0051a61687650676c = L.circleMarker(
+                [-2.55, -44.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4085, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_4af92333c68bb83c98c76e8ed5dcadd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_323fbaa32510aded45a09ffa62bd2879 = $(`<div id="html_323fbaa32510aded45a09ffa62bd2879" style="width: 100.0%; height: 100.0%;">Estado: Maranhão<br>Total Incêndios: 16817</div>`)[0];
+                popup_4af92333c68bb83c98c76e8ed5dcadd5.setContent(html_323fbaa32510aded45a09ffa62bd2879);
+            
+        
+
+        circle_marker_b81756ffb5db36f0051a61687650676c.bindPopup(popup_4af92333c68bb83c98c76e8ed5dcadd5)
+        ;
+
+        
+    
+    
+            var circle_marker_48a9663fc9f013d4f8a209c1948bd99d = L.circleMarker(
+                [-2.55, -44.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0385, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_eeb01bdd083e628c75b144292357dea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dab27ea36cd6baab6aa0f8d125eed90a = $(`<div id="html_dab27ea36cd6baab6aa0f8d125eed90a" style="width: 100.0%; height: 100.0%;">Estado: Maranhão<br>Total Incêndios: 16077</div>`)[0];
+                popup_eeb01bdd083e628c75b144292357dea5.setContent(html_dab27ea36cd6baab6aa0f8d125eed90a);
+            
+        
+
+        circle_marker_48a9663fc9f013d4f8a209c1948bd99d.bindPopup(popup_eeb01bdd083e628c75b144292357dea5)
+        ;
+
+        
+    
+    
+            var circle_marker_9dc1052a8afcde17ee74752ca27dd7e7 = L.circleMarker(
+                [-2.55, -44.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3695, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_db5a3b991c4748c7f9afc7d6895e119f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b66ca3764a29f1603665f06dd6eb2df3 = $(`<div id="html_b66ca3764a29f1603665f06dd6eb2df3" style="width: 100.0%; height: 100.0%;">Estado: Maranhão<br>Total Incêndios: 12739</div>`)[0];
+                popup_db5a3b991c4748c7f9afc7d6895e119f.setContent(html_b66ca3764a29f1603665f06dd6eb2df3);
+            
+        
+
+        circle_marker_9dc1052a8afcde17ee74752ca27dd7e7.bindPopup(popup_db5a3b991c4748c7f9afc7d6895e119f)
+        ;
+
+        
+    
+    
+            var circle_marker_5fc046d4e20852d0eb5f56a60fc6f197 = L.circleMarker(
+                [-5.22, -36.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1755, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_4aaba96c19c09b7d0bb70eafcee8f179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ca5e03c63e1ab7b982ec4803bfa6a8b = $(`<div id="html_6ca5e03c63e1ab7b982ec4803bfa6a8b" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Norte<br>Total Incêndios: 351</div>`)[0];
+                popup_4aaba96c19c09b7d0bb70eafcee8f179.setContent(html_6ca5e03c63e1ab7b982ec4803bfa6a8b);
+            
+        
+
+        circle_marker_5fc046d4e20852d0eb5f56a60fc6f197.bindPopup(popup_4aaba96c19c09b7d0bb70eafcee8f179)
+        ;
+
+        
+    
+    
+            var circle_marker_a30553e4d69634fda0b23713b3a7a43e = L.circleMarker(
+                [-5.22, -36.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.228, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_78ac15ea13c548900409d56d66c410a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bc3b9348568e733ed3849333ffff4dc = $(`<div id="html_0bc3b9348568e733ed3849333ffff4dc" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Norte<br>Total Incêndios: 456</div>`)[0];
+                popup_78ac15ea13c548900409d56d66c410a0.setContent(html_0bc3b9348568e733ed3849333ffff4dc);
+            
+        
+
+        circle_marker_a30553e4d69634fda0b23713b3a7a43e.bindPopup(popup_78ac15ea13c548900409d56d66c410a0)
+        ;
+
+        
+    
+    
+            var circle_marker_592eb3be5ae5e81802fa8438eda6997b = L.circleMarker(
+                [-5.22, -36.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.365, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_35881dc8ecfab5f6f8edf3ce51e52605 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0e3e77405fedf8845c95c32c72ed545 = $(`<div id="html_e0e3e77405fedf8845c95c32c72ed545" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Norte<br>Total Incêndios: 730</div>`)[0];
+                popup_35881dc8ecfab5f6f8edf3ce51e52605.setContent(html_e0e3e77405fedf8845c95c32c72ed545);
+            
+        
+
+        circle_marker_592eb3be5ae5e81802fa8438eda6997b.bindPopup(popup_35881dc8ecfab5f6f8edf3ce51e52605)
+        ;
+
+        
+    
+    
+            var circle_marker_f944640bf3adffce88269b81c353a921 = L.circleMarker(
+                [-5.22, -36.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.332, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e0c2c125ec6a915979204cac77f7cc59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a424ef9c2e3e2e6d6a26d4342196432 = $(`<div id="html_2a424ef9c2e3e2e6d6a26d4342196432" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Norte<br>Total Incêndios: 664</div>`)[0];
+                popup_e0c2c125ec6a915979204cac77f7cc59.setContent(html_2a424ef9c2e3e2e6d6a26d4342196432);
+            
+        
+
+        circle_marker_f944640bf3adffce88269b81c353a921.bindPopup(popup_e0c2c125ec6a915979204cac77f7cc59)
+        ;
+
+        
+    
+    
+            var circle_marker_8009b682f664e802f6354810f46beab6 = L.circleMarker(
+                [-5.22, -36.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2815, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_6f91d6b1e7fecd2d41bac5198917032c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26885d8e8c99b3b7239a0300dea17656 = $(`<div id="html_26885d8e8c99b3b7239a0300dea17656" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Norte<br>Total Incêndios: 563</div>`)[0];
+                popup_6f91d6b1e7fecd2d41bac5198917032c.setContent(html_26885d8e8c99b3b7239a0300dea17656);
+            
+        
+
+        circle_marker_8009b682f664e802f6354810f46beab6.bindPopup(popup_6f91d6b1e7fecd2d41bac5198917032c)
+        ;
+
+        
+    
+    
+            var circle_marker_1deda7f72d034533a8352190951614e9 = L.circleMarker(
+                [-5.22, -36.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0545, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_0a04faeaabca30fe228d3953a6f62af7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bc03d200f167e52133d9bbb43ced66b = $(`<div id="html_3bc03d200f167e52133d9bbb43ced66b" style="width: 100.0%; height: 100.0%;">Estado: Rio Grande do Norte<br>Total Incêndios: 109</div>`)[0];
+                popup_0a04faeaabca30fe228d3953a6f62af7.setContent(html_3bc03d200f167e52133d9bbb43ced66b);
+            
+        
+
+        circle_marker_1deda7f72d034533a8352190951614e9.bindPopup(popup_0a04faeaabca30fe228d3953a6f62af7)
+        ;
+
+        
+    
+    
+            var circle_marker_d1aa3ff8cf91ec890ccd42d4c5cc9d7d = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.796, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_caa79cf863f039ed380558cec5478f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_241cbc9e270dade1a580e170896e45d0 = $(`<div id="html_241cbc9e270dade1a580e170896e45d0" style="width: 100.0%; height: 100.0%;">Estado: Paraná<br>Total Incêndios: 3592</div>`)[0];
+                popup_caa79cf863f039ed380558cec5478f01.setContent(html_241cbc9e270dade1a580e170896e45d0);
+            
+        
+
+        circle_marker_d1aa3ff8cf91ec890ccd42d4c5cc9d7d.bindPopup(popup_caa79cf863f039ed380558cec5478f01)
+        ;
+
+        
+    
+    
+            var circle_marker_ab6dbcd1d21397361d3aca965fc22f24 = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2555, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_b3aa85fb38c6f2c449c195d27fb53e01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84fd0f5d50c50202ca3771b0579a8e71 = $(`<div id="html_84fd0f5d50c50202ca3771b0579a8e71" style="width: 100.0%; height: 100.0%;">Estado: Paraná<br>Total Incêndios: 2511</div>`)[0];
+                popup_b3aa85fb38c6f2c449c195d27fb53e01.setContent(html_84fd0f5d50c50202ca3771b0579a8e71);
+            
+        
+
+        circle_marker_ab6dbcd1d21397361d3aca965fc22f24.bindPopup(popup_b3aa85fb38c6f2c449c195d27fb53e01)
+        ;
+
+        
+    
+    
+            var circle_marker_d206de1576116067b300c7205dfe8b0d = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.657, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_ce5d3a6be82d5bafa73b12ca851a82e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c5b9da1ef61cbcd34d7b4e5d97bfb3c = $(`<div id="html_8c5b9da1ef61cbcd34d7b4e5d97bfb3c" style="width: 100.0%; height: 100.0%;">Estado: Paraná<br>Total Incêndios: 3314</div>`)[0];
+                popup_ce5d3a6be82d5bafa73b12ca851a82e1.setContent(html_8c5b9da1ef61cbcd34d7b4e5d97bfb3c);
+            
+        
+
+        circle_marker_d206de1576116067b300c7205dfe8b0d.bindPopup(popup_ce5d3a6be82d5bafa73b12ca851a82e1)
+        ;
+
+        
+    
+    
+            var circle_marker_3a16cf969afe0ac75fafb17a8d9eec50 = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7595, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_2aa729d889823859b369c9ac60b37538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcd50b8296569fbf310ac84ed255e422 = $(`<div id="html_dcd50b8296569fbf310ac84ed255e422" style="width: 100.0%; height: 100.0%;">Estado: Paraná<br>Total Incêndios: 3519</div>`)[0];
+                popup_2aa729d889823859b369c9ac60b37538.setContent(html_dcd50b8296569fbf310ac84ed255e422);
+            
+        
+
+        circle_marker_3a16cf969afe0ac75fafb17a8d9eec50.bindPopup(popup_2aa729d889823859b369c9ac60b37538)
+        ;
+
+        
+    
+    
+            var circle_marker_aead4e2fe5a4024c43bbf96b57057adb = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.849, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_c894ec23738cdbea37a16a88d99f0886 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a057c3e37ed0f844a371462579469571 = $(`<div id="html_a057c3e37ed0f844a371462579469571" style="width: 100.0%; height: 100.0%;">Estado: Paraná<br>Total Incêndios: 3698</div>`)[0];
+                popup_c894ec23738cdbea37a16a88d99f0886.setContent(html_a057c3e37ed0f844a371462579469571);
+            
+        
+
+        circle_marker_aead4e2fe5a4024c43bbf96b57057adb.bindPopup(popup_c894ec23738cdbea37a16a88d99f0886)
+        ;
+
+        
+    
+    
+            var circle_marker_439bc19c028ddce64d6a810ba47a58f0 = L.circleMarker(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7085, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_52789bad4b798c5c38f06f367ffa0f9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28df022cfab9ce0ad534d1126aab36ab = $(`<div id="html_28df022cfab9ce0ad534d1126aab36ab" style="width: 100.0%; height: 100.0%;">Estado: Paraná<br>Total Incêndios: 1417</div>`)[0];
+                popup_52789bad4b798c5c38f06f367ffa0f9c.setContent(html_28df022cfab9ce0ad534d1126aab36ab);
+            
+        
+
+        circle_marker_439bc19c028ddce64d6a810ba47a58f0.bindPopup(popup_52789bad4b798c5c38f06f367ffa0f9c)
+        ;
+
+        
+    
+    
+            var circle_marker_64c77d35ffd6a31a10feae20f33026d4 = L.circleMarker(
+                [-3.71, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.743, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_66b17660ff973f949a9798910d6e1253 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dc5132be38bdbabbc3ea28234e4f97b = $(`<div id="html_6dc5132be38bdbabbc3ea28234e4f97b" style="width: 100.0%; height: 100.0%;">Estado: Ceará<br>Total Incêndios: 3486</div>`)[0];
+                popup_66b17660ff973f949a9798910d6e1253.setContent(html_6dc5132be38bdbabbc3ea28234e4f97b);
+            
+        
+
+        circle_marker_64c77d35ffd6a31a10feae20f33026d4.bindPopup(popup_66b17660ff973f949a9798910d6e1253)
+        ;
+
+        
+    
+    
+            var circle_marker_6f17b5ebd7755f46acaf1a5c241d64db = L.circleMarker(
+                [-3.71, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.517, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a096763ed0d5ce4a0b045629637e733c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93ecbf24ccb3233c39687d5686fcd244 = $(`<div id="html_93ecbf24ccb3233c39687d5686fcd244" style="width: 100.0%; height: 100.0%;">Estado: Ceará<br>Total Incêndios: 3034</div>`)[0];
+                popup_a096763ed0d5ce4a0b045629637e733c.setContent(html_93ecbf24ccb3233c39687d5686fcd244);
+            
+        
+
+        circle_marker_6f17b5ebd7755f46acaf1a5c241d64db.bindPopup(popup_a096763ed0d5ce4a0b045629637e733c)
+        ;
+
+        
+    
+    
+            var circle_marker_e4a6464a60422d5f5297bb37dde6070a = L.circleMarker(
+                [-3.71, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.152, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_31d81a696bef12fb10bde131bbd51dd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6131fc6052900ea7f091322e659b1e5 = $(`<div id="html_e6131fc6052900ea7f091322e659b1e5" style="width: 100.0%; height: 100.0%;">Estado: Ceará<br>Total Incêndios: 4304</div>`)[0];
+                popup_31d81a696bef12fb10bde131bbd51dd0.setContent(html_e6131fc6052900ea7f091322e659b1e5);
+            
+        
+
+        circle_marker_e4a6464a60422d5f5297bb37dde6070a.bindPopup(popup_31d81a696bef12fb10bde131bbd51dd0)
+        ;
+
+        
+    
+    
+            var circle_marker_b835021514e2ee57eade700eed7a041c = L.circleMarker(
+                [-3.71, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9895, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_97684c626c95e0313dfeeb279cacd43d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eccf8090069127ce59bc30c60bc3c9bd = $(`<div id="html_eccf8090069127ce59bc30c60bc3c9bd" style="width: 100.0%; height: 100.0%;">Estado: Ceará<br>Total Incêndios: 3979</div>`)[0];
+                popup_97684c626c95e0313dfeeb279cacd43d.setContent(html_eccf8090069127ce59bc30c60bc3c9bd);
+            
+        
+
+        circle_marker_b835021514e2ee57eade700eed7a041c.bindPopup(popup_97684c626c95e0313dfeeb279cacd43d)
+        ;
+
+        
+    
+    
+            var circle_marker_0dec6487a00eed2ce0313380b0db8b4d = L.circleMarker(
+                [-3.71, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1895, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_8f999d585d654991b2c27830cf5b8fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc061391de2c04bb6bf38dad0f04d32 = $(`<div id="html_5dc061391de2c04bb6bf38dad0f04d32" style="width: 100.0%; height: 100.0%;">Estado: Ceará<br>Total Incêndios: 4379</div>`)[0];
+                popup_8f999d585d654991b2c27830cf5b8fa9.setContent(html_5dc061391de2c04bb6bf38dad0f04d32);
+            
+        
+
+        circle_marker_0dec6487a00eed2ce0313380b0db8b4d.bindPopup(popup_8f999d585d654991b2c27830cf5b8fa9)
+        ;
+
+        
+    
+    
+            var circle_marker_ea889db03eea92ed73628d83d3a328e4 = L.circleMarker(
+                [-3.71, -38.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_772be11e2244a23f083cc45d58fd2c61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40db16f2a3036ff5628a9d3195822c5c = $(`<div id="html_40db16f2a3036ff5628a9d3195822c5c" style="width: 100.0%; height: 100.0%;">Estado: Ceará<br>Total Incêndios: 600</div>`)[0];
+                popup_772be11e2244a23f083cc45d58fd2c61.setContent(html_40db16f2a3036ff5628a9d3195822c5c);
+            
+        
+
+        circle_marker_ea889db03eea92ed73628d83d3a328e4.bindPopup(popup_772be11e2244a23f083cc45d58fd2c61)
+        ;
+
+        
+    
+    
+            var circle_marker_8a12cc36ea993a0bdd3a3f4ab3f34996 = L.circleMarker(
+                [1.89, -61.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7825, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_f890f0bf24d0a7be6da8e08b704efb1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e2b36690cfde0d7619cbde0a556903d = $(`<div id="html_1e2b36690cfde0d7619cbde0a556903d" style="width: 100.0%; height: 100.0%;">Estado: Roraima<br>Total Incêndios: 1565</div>`)[0];
+                popup_f890f0bf24d0a7be6da8e08b704efb1f.setContent(html_1e2b36690cfde0d7619cbde0a556903d);
+            
+        
+
+        circle_marker_8a12cc36ea993a0bdd3a3f4ab3f34996.bindPopup(popup_f890f0bf24d0a7be6da8e08b704efb1f)
+        ;
+
+        
+    
+    
+            var circle_marker_aa9ce6ea301ed470e74ffdae3515234e = L.circleMarker(
+                [1.89, -61.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1915, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_b810d1b8c61bbee89d698183855e70a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab9425543289587e0e607497e57b75c9 = $(`<div id="html_ab9425543289587e0e607497e57b75c9" style="width: 100.0%; height: 100.0%;">Estado: Roraima<br>Total Incêndios: 2383</div>`)[0];
+                popup_b810d1b8c61bbee89d698183855e70a5.setContent(html_ab9425543289587e0e607497e57b75c9);
+            
+        
+
+        circle_marker_aa9ce6ea301ed470e74ffdae3515234e.bindPopup(popup_b810d1b8c61bbee89d698183855e70a5)
+        ;
+
+        
+    
+    
+            var circle_marker_4ece489491b41c0f5b1b2c79f866889e = L.circleMarker(
+                [1.89, -61.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.392, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_e33c8b1c4d1bc1d0efcefd6834f419a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76a560017e869ff9c2f6ec219f23e13a = $(`<div id="html_76a560017e869ff9c2f6ec219f23e13a" style="width: 100.0%; height: 100.0%;">Estado: Roraima<br>Total Incêndios: 4784</div>`)[0];
+                popup_e33c8b1c4d1bc1d0efcefd6834f419a7.setContent(html_76a560017e869ff9c2f6ec219f23e13a);
+            
+        
+
+        circle_marker_4ece489491b41c0f5b1b2c79f866889e.bindPopup(popup_e33c8b1c4d1bc1d0efcefd6834f419a7)
+        ;
+
+        
+    
+    
+            var circle_marker_5259fb023dc88a09aa86a678ceca6509 = L.circleMarker(
+                [1.89, -61.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.965, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_20e011f72b9126bec40cc93803a1dc59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae519902c422c1d494e4b05daa6c7f52 = $(`<div id="html_ae519902c422c1d494e4b05daa6c7f52" style="width: 100.0%; height: 100.0%;">Estado: Roraima<br>Total Incêndios: 1930</div>`)[0];
+                popup_20e011f72b9126bec40cc93803a1dc59.setContent(html_ae519902c422c1d494e4b05daa6c7f52);
+            
+        
+
+        circle_marker_5259fb023dc88a09aa86a678ceca6509.bindPopup(popup_20e011f72b9126bec40cc93803a1dc59)
+        ;
+
+        
+    
+    
+            var circle_marker_c5747c877640f8ebcae0957fdd45d3f0 = L.circleMarker(
+                [1.89, -61.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4945, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_867589943dd98bc76baafe1943b3e0dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c08073714655778e97e812913384d345 = $(`<div id="html_c08073714655778e97e812913384d345" style="width: 100.0%; height: 100.0%;">Estado: Roraima<br>Total Incêndios: 989</div>`)[0];
+                popup_867589943dd98bc76baafe1943b3e0dd.setContent(html_c08073714655778e97e812913384d345);
+            
+        
+
+        circle_marker_c5747c877640f8ebcae0957fdd45d3f0.bindPopup(popup_867589943dd98bc76baafe1943b3e0dd)
+        ;
+
+        
+    
+    
+            var circle_marker_a44d77b2ca363c6f56317eb513ab04f0 = L.circleMarker(
+                [1.89, -61.22],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.389, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_aab5b7a1de1d71d0b08e9f3b35c42839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7306697f72908bd94af03fbcb1ef186 = $(`<div id="html_a7306697f72908bd94af03fbcb1ef186" style="width: 100.0%; height: 100.0%;">Estado: Roraima<br>Total Incêndios: 778</div>`)[0];
+                popup_aab5b7a1de1d71d0b08e9f3b35c42839.setContent(html_a7306697f72908bd94af03fbcb1ef186);
+            
+        
+
+        circle_marker_a44d77b2ca363c6f56317eb513ab04f0.bindPopup(popup_aab5b7a1de1d71d0b08e9f3b35c42839)
+        ;
+
+        
+    
+    
+            var circle_marker_3b7d76cdc30b9b69190a11ae787c1b38 = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.4555, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_830e975abca0ff06bd38c3efc31eebf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c608f3f19633c729cade88184c25a0a5 = $(`<div id="html_c608f3f19633c729cade88184c25a0a5" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso<br>Total Incêndios: 30911</div>`)[0];
+                popup_830e975abca0ff06bd38c3efc31eebf0.setContent(html_c608f3f19633c729cade88184c25a0a5);
+            
+        
+
+        circle_marker_3b7d76cdc30b9b69190a11ae787c1b38.bindPopup(popup_830e975abca0ff06bd38c3efc31eebf0)
+        ;
+
+        
+    
+    
+            var circle_marker_711202643801b908cba3a4880f9a3b04 = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.016, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_559d13ccc53375d8a2bff16a610fccf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38eaef14fe09b331d928cd38dcc642aa = $(`<div id="html_38eaef14fe09b331d928cd38dcc642aa" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso<br>Total Incêndios: 18032</div>`)[0];
+                popup_559d13ccc53375d8a2bff16a610fccf9.setContent(html_38eaef14fe09b331d928cd38dcc642aa);
+            
+        
+
+        circle_marker_711202643801b908cba3a4880f9a3b04.bindPopup(popup_559d13ccc53375d8a2bff16a610fccf9)
+        ;
+
+        
+    
+    
+            var circle_marker_d56a71f9fcb80a01c90834b3359e1d9a = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.5845, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a2af8b6fea9d4dc8d3d561685d0772e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_452e51f0cabfe366a1b35bfffc9455cf = $(`<div id="html_452e51f0cabfe366a1b35bfffc9455cf" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso<br>Total Incêndios: 31169</div>`)[0];
+                popup_a2af8b6fea9d4dc8d3d561685d0772e1.setContent(html_452e51f0cabfe366a1b35bfffc9455cf);
+            
+        
+
+        circle_marker_d56a71f9fcb80a01c90834b3359e1d9a.bindPopup(popup_a2af8b6fea9d4dc8d3d561685d0772e1)
+        ;
+
+        
+    
+    
+            var circle_marker_677768d0883035fb6ba5fde756e15403 = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.854, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_3126d1b92cfbc83093e65ef5c56d9ad8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1dba6044febe368bd19f085f586bc6b = $(`<div id="html_d1dba6044febe368bd19f085f586bc6b" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso<br>Total Incêndios: 47708</div>`)[0];
+                popup_3126d1b92cfbc83093e65ef5c56d9ad8.setContent(html_d1dba6044febe368bd19f085f586bc6b);
+            
+        
+
+        circle_marker_677768d0883035fb6ba5fde756e15403.bindPopup(popup_3126d1b92cfbc83093e65ef5c56d9ad8)
+        ;
+
+        
+    
+    
+            var circle_marker_57af1c8ede42deedf8c550323e690f14 = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.26, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_85703809c3cc8028827114a8c29355be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_742fd630e5927d064b43312223ed495b = $(`<div id="html_742fd630e5927d064b43312223ed495b" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso<br>Total Incêndios: 22520</div>`)[0];
+                popup_85703809c3cc8028827114a8c29355be.setContent(html_742fd630e5927d064b43312223ed495b);
+            
+        
+
+        circle_marker_57af1c8ede42deedf8c550323e690f14.bindPopup(popup_85703809c3cc8028827114a8c29355be)
+        ;
+
+        
+    
+    
+            var circle_marker_054e6e632d654e8feae9afd6165d0289 = L.circleMarker(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.9665, "stroke": true, "weight": 3}
+            ).addTo(map_8a67b4cb4f7705200e8c3b38e1b58d53);
+        
+    
+        var popup_a6656f324277658a6d68eca86d41000a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa1c7d4789f31aac59e7b95a9466f858 = $(`<div id="html_aa1c7d4789f31aac59e7b95a9466f858" style="width: 100.0%; height: 100.0%;">Estado: Mato Grosso<br>Total Incêndios: 25933</div>`)[0];
+                popup_a6656f324277658a6d68eca86d41000a.setContent(html_aa1c7d4789f31aac59e7b95a9466f858);
+            
+        
+
+        circle_marker_054e6e632d654e8feae9afd6165d0289.bindPopup(popup_a6656f324277658a6d68eca86d41000a)
+        ;
+
+        
+    
+</script>
+</html>
